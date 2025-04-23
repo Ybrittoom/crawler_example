@@ -1,0 +1,18 @@
+{
+  "site": "https://gemini.google.com/app/db4f43894f744e56?hl=pt-BR",
+  "titulo": "‎Gemini",
+  "totalLinks": 2,
+  "links": [
+    {
+      "site": "https://gemini.google.com/app/db4f43894f744e56?hl=pt-BR",
+      "texto": "",
+      "href": "https://www.google.com.br/intl/pt-BR/about/products"
+    },
+    {
+      "site": "https://gemini.google.com/app/db4f43894f744e56?hl=pt-BR",
+      "texto": "Fazer login",
+      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://gemini.google.com/app/db4f43894f744e56?hl%3Dpt-BR&followup=https://gemini.google.com/app/db4f43894f744e56?hl%3Dpt-BR&hl=pt-BR&ec=GAZAkgU"
+    }
+  ],
+  "dataHoraLog": "23/04/2025 17:47"
+}

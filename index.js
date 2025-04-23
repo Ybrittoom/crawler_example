@@ -1,27 +1,46 @@
-const axios = require('axios') //ele faz requisiçoes HTTP (como fetch)
-const cheerio = require('cheerio') // interpreta o HTML
-const fs = require('fs') //file system
+const axios = require('axios')
+const cheerio = require('cheerio')
+const fs = require('fs')
+const path = require('path')
 
-//1 - defininir a URL que queremos acessar
 const sites = [
-    'https://www.linkedin.com/in/yago-emanuel-brito-de-moura-417385275/recent-activity/all/',
-    'https://github.com/Ybrittoom?tab=repositories',
-    'https://www.youtube.com/watch?v=5phnZexAvZM',
-    'https://web.whatsapp.com/'
+    'https://gemini.google.com/app/db4f43894f744e56?hl=pt-BR',
+    'https://pt.squarespace.com/design-de-sites/?channel=pnb&subchannel=go&campaign=pnb-go-row_other-en-core_website-phr&subcampaign=(general-en_website-design-themes_phr)&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwhr6_BhD4ARIsAH1YdjDcXx0DXpy9E_w5NG_tPyM04kKfXL1t1K7K5xMgIQlv7Ycx_8vCQpoaAumREALw_wcB',
+    'https://discord.com/channels/930625070995501156/989313440856289331'
 ]
+
+function getDataHoraAtual() {
+    const agora = new Date()
+    const ano = agora.getFullYear()
+    const mes = String(agora.getMonth() + 1).padStart(2, '0')
+    const dia = String(agora.getDate()).padStart(2, '0')
+    const horas = String(agora.getHours()).padStart(2, '0')
+    const minutos = String(agora.getMinutes()).padStart(2, '0')
+    const segundos = String(agora.getSeconds()).padStart(2, '0')
+
+    return {
+        formatoArquivo: `${ano}-${mes}-${dia}_${horas}-${minutos}`,
+        formatoHumano: `${dia}/${mes}/${ano} ${horas}:${minutos}`
+    }
+}
 
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
+const pastaLogs = path.join(__dirname, 'logs')
+if (!fs.existsSync(pastaLogs)) {
+    fs.mkdirSync(pastaLogs)
+    console.log('Pasta de logs criada!!')
+}
 
-// crawler que recebe uma URL e rotarna os links encontrados
 async function crawler(url) {
     try {
         const response = await axios.get(url)
         const html = response.data
         const $ = cheerio.load(html)
 
+        const title = $('title').text().trim()
         const links = []
 
         $('a').each((index, element) => {
@@ -37,31 +56,65 @@ async function crawler(url) {
             }
         })
 
+        const resultado = {
+            site: url,
+            titulo: title,
+            totalLinks: links.length,
+            links: links
+        }
 
         console.log(`✅ ${links.length} links encontrados em ${url}`)
-        return links
+        return resultado
 
     } catch (error) {
         console.log(`❌ Erro ao acessar ${url}:`, error.message)
-        return []
+        return null
     }
 }
 
-
-//funçao principal
 async function iniciarCrawler() {
     const todos_os_links = []
 
     for (let url of sites) {
         console.log(`\n🌐 Visitando: ${url}`)
 
-        const links = await crawler(url)
-        todos_os_links.push(...links)
+        const resultado = await crawler(url)
 
+        if (!resultado || !resultado.links) {
+            console.log(`⚠️ Nenhum dado retornado de ${url}. Pulando.`)
+            continue
+        }
+
+        // Adiciona os links ao array principal
+        todos_os_links.push(...resultado.links)
+
+        //cria o nome do arquivo e salva dentro da pasta logs
+        const dataHora = getDataHoraAtual()
+        const nomeArquivo = `log_${new URL(url).hostname}_${dataHora}.json`
+        const caminhoCompleto = path.join(pastaLogs, nomeArquivo)
+        
+        resultado.dataHoraLog = dataHora.formatoHumano
+
+        fs.writeFileSync(caminhoCompleto, JSON.stringify(resultado, null, 2), 'utf-8')
+
+        console.log(`📄 Log salvo em: ${caminhoCompleto}`)
+
+        // Espera 2 segundos para evitar bloqueios
         await delay(2000)
     }
 
-    // Salva todos os dados encontrados
+    const linksUnicos = []
+    const setDeLinks = new Set()
+
+    for (let link of todos_os_links) {
+        const chave = `${link.site}|${link.href}` //identificador unico
+        if (!setDeLinks.has(chave)) {
+            setDeLinks.add(chave)
+            linksUnicos.push(link)
+        }
+    }
+
+    // Salva todos os dados encontrados juntos
     fs.writeFileSync('dados.json', JSON.stringify(todos_os_links, null, 2), 'utf-8')
     console.log('\n✅ Todos os dados foram salvos em dados.json')
 }
