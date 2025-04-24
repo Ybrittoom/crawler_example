@@ -4,9 +4,9 @@ const fs = require('fs')
 const path = require('path')
 
 const sites = [
-    'https://gemini.google.com/app/db4f43894f744e56?hl=pt-BR',
-    'https://pt.squarespace.com/design-de-sites/?channel=pnb&subchannel=go&campaign=pnb-go-row_other-en-core_website-phr&subcampaign=(general-en_website-design-themes_phr)&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwhr6_BhD4ARIsAH1YdjDcXx0DXpy9E_w5NG_tPyM04kKfXL1t1K7K5xMgIQlv7Ycx_8vCQpoaAumREALw_wcB',
-    'https://discord.com/channels/930625070995501156/989313440856289331'
+    'https://myaccount.mercadolivre.com.br/bookmarks/list#nav-header',
+    'https://www.google.com/search?q=jogos&oq=j&gs_lcrp=EgZjaHJvbWUqDQgCEAAYgwEYsQMYgAQyBggAEEUYOTIQCAEQLhjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDIHCAQQABiABDIHCAUQABiABDIKCAYQABixAxiABDINCAcQLhiDARixAxiABDIHCAgQABiPAjIHCAkQABiPAtIBCTE1NDEwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8',
+    'https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzjYuMmD0YktOLEvMyQcALh4FSA&q=cavalo&oq=cava&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCQgAEEUYORiABDIHCAEQLhiABDIVCAIQLhgKGIMBGMcBGLEDGNEDGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8'
 ]
 
 function getDataHoraAtual() {
@@ -16,7 +16,6 @@ function getDataHoraAtual() {
     const dia = String(agora.getDate()).padStart(2, '0')
     const horas = String(agora.getHours()).padStart(2, '0')
     const minutos = String(agora.getMinutes()).padStart(2, '0')
-    const segundos = String(agora.getSeconds()).padStart(2, '0')
 
     return {
         formatoArquivo: `${ano}-${mes}-${dia}_${horas}-${minutos}`,
@@ -57,8 +56,8 @@ async function crawler(url) {
         })
 
         const resultado = {
-            site: url,
             titulo: title,
+            site: url,
             totalLinks: links.length,
             links: links
         }

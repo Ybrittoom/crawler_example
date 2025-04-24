@@ -9,7 +9,7 @@
         const botaoFechar = document.getElementById('botaoFechar')
         const divConteudo = document.getElementById('conteudo')
 
-        
+        divConteudo.textContent = ''
     }
 
     function mostrarDados() {

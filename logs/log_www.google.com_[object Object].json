@@ -1,0 +1,18 @@
+{
+  "titulo": "Google Search",
+  "site": "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzjYuMmD0YktOLEvMyQcALh4FSA&q=cavalo&oq=cava&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCQgAEEUYORiABDIHCAEQLhiABDIVCAIQLhgKGIMBGMcBGLEDGNEDGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+  "totalLinks": 2,
+  "links": [
+    {
+      "site": "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzjYuMmD0YktOLEvMyQcALh4FSA&q=cavalo&oq=cava&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCQgAEEUYORiABDIHCAEQLhiABDIVCAIQLhgKGIMBGMcBGLEDGNEDGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+      "texto": "click here",
+      "href": "/search?q=cavalo&sca_esv=fc3cb5d2e645d47f&ie=UTF-8&emsg=SG_REL&sei=IYcKaOW2Hcjn1sQPs4ym8A4"
+    },
+    {
+      "site": "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzjYuMmD0YktOLEvMyQcALh4FSA&q=cavalo&oq=cava&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCQgAEEUYORiABDIHCAEQLhiABDIVCAIQLhgKGIMBGMcBGLEDGNEDGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+      "texto": "feedback",
+      "href": "https://support.google.com/websearch"
+    }
+  ],
+  "dataHoraLog": "24/04/2025 15:47"
+}
