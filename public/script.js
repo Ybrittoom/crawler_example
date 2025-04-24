@@ -1,4 +1,19 @@
-fetch('/dados.json')
+
+    function acessarDados() {
+        const botaoAcessar = document.getElementById('botaoAcessar')
+
+        mostrarDados()
+    }
+
+    function fecharDados() {
+        const botaoFechar = document.getElementById('botaoFechar')
+        const divConteudo = document.getElementById('conteudo')
+
+        
+    }
+
+    function mostrarDados() {
+        fetch('/dados.json')
     .then(res => res.json())
     .then(dados => {
         const conteudo = document.getElementById('conteudo')
@@ -38,3 +53,5 @@ fetch('/dados.json')
         document.getElementById('conteudo').innerHTML = 'Erro ao carregar os dados'
         console.log(err)
     })
+
+    }
