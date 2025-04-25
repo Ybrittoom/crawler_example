@@ -13,46 +13,13 @@
             padding: 20px;
         }
 
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            background-color: #1e1e1e;
-        }
-
-        th,
-        td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #0b0c10;
-            color: #66fcf1;
-        }
-
-        a {
-            color: #45aaf2;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
         .site-titulo {
-      margin-top: 40px;
-      font-size: 1.2em;
-      color: #f0f0f0;
-      border-bottom: 1px solid #333;
-      padding-bottom: 5px;
-    }
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #f0f0f0;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
 
         .site {
             margin-bottom: 2rem;
@@ -86,9 +53,13 @@
 <body>
     <h1>Relatorio do Crawler</h1>
 
+    <h2>adicionar site </h2>
+    <input type="text" id="novaUrl" placeholder="Cole a URL aqui..." style="width: 300px; padding: 5px;">
+    <button onclick="enviarUrl()">➕ Adicionar URL</button>
+
     <button onclick="acessarDados()">📂 Ver Dados</button>
     <button onclick="fecharDados()">❌ Fechar</button>
-    
+
     <div id="conteudo"></div>
 
     <script src="script.js"></script>

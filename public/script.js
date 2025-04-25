@@ -7,6 +7,32 @@ function fecharDados() {
     divConteudo.textContent = ''
 }
 
+function enviarUrl() {
+    const input = document.getElementById('novaUrl')
+    const url = input.value.trim()
+
+    if (!url) {
+        alert("Por favor, isira uma url valida")
+        return
+    }
+
+    fetch('/adicionar-site', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ url })
+    })
+    .then(res => res.json())
+    .then(data => {
+        alert(data.mensagem || 'URl adicionada com sucesso')
+    })
+    .catch(err => {
+        console.error(err)
+        alert('Erro ao adicionar URL:')
+    })
+}
+
 function mostrarDados() {
     fetch('/dados.json')
         .then(res => res.json())
