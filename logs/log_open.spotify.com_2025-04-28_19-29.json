@@ -1,0 +1,93 @@
+{
+  "titulo": "Spotify - Web Player: Music for everyone",
+  "site": "https://open.spotify.com/intl-pt",
+  "totalLinks": 17,
+  "links": [
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "العَرَبِيَّةArabic",
+      "href": "https://open.spotify.com/intl-ar"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "عربي مصريArabic (Egypt)",
+      "href": "https://open.spotify.com/intl-ar"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "العَرَبِيَّة مغربيArabic (Morocco)",
+      "href": "https://open.spotify.com/intl-ar"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "العربية السعوديةArabic (Saudi Arabia)",
+      "href": "https://open.spotify.com/intl-ar"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "DeutschGerman",
+      "href": "https://open.spotify.com/intl-de"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Español de EspañaEuropean Spanish",
+      "href": "https://open.spotify.com/intl-es"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Español de LatinoaméricaLatin American Spanish",
+      "href": "https://open.spotify.com/intl-es"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Español (Argentina)Spanish (Argentina)",
+      "href": "https://open.spotify.com/intl-es"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Español (México)Spanish (Mexico)",
+      "href": "https://open.spotify.com/intl-es"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "FrançaisFrench",
+      "href": "https://open.spotify.com/intl-fr"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Français CanadienCanadian French",
+      "href": "https://open.spotify.com/intl-fr"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Bahasa IndonesiaIndonesian",
+      "href": "https://open.spotify.com/intl-id"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "ItalianoItalian",
+      "href": "https://open.spotify.com/intl-it"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "日本語Japanese",
+      "href": "https://open.spotify.com/intl-ja"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "Português do BrasilBrazilian Portuguese",
+      "href": "https://open.spotify.com/intl-pt"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "PortuguêsEuropean Portuguese",
+      "href": "https://open.spotify.com/intl-pt"
+    },
+    {
+      "site": "https://open.spotify.com/intl-pt",
+      "texto": "TürkçeTurkish",
+      "href": "https://open.spotify.com/intl-tr"
+    }
+  ],
+  "dataHoraLog": "28/04/2025 19:29"
+}

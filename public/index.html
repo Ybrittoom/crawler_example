@@ -5,53 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatorio do Crawler</title>
-    <style>
-        body {
-            background-color: #121212;
-            color: #f0f0f0;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        .site-titulo {
-            margin-top: 40px;
-            font-size: 1.2em;
-            color: #f0f0f0;
-            border-bottom: 1px solid #333;
-            padding-bottom: 5px;
-        }
-
-        .site {
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .site h2 {
-            margin: 0 0 0.5rem;
-            color: #333;
-        }
-
-        .link {
-            margin: 0.3rem 0;
-            font-size: 0.95rem;
-        }
-
-        a {
-            text-decoration: none;
-            color: #0077cc;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Relatorio do Crawler</h1>
+    <header>
+        <h1>Crawler de Sites</h1>
+    </header>
+
+    <main>
+        <section class="form_section">
+            <h2>Adicionar Novo Siter</h2>
+            <form id="siteForm">
+                <input type="url" id="novaUrl" placeholder="Digite a URL..." required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+    </main>
 
     <h2>adicionar site </h2>
     <input type="text" id="novaUrl" placeholder="Cole a URL aqui..." style="width: 300px; padding: 5px;">

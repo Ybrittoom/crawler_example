@@ -1,21 +1,146 @@
 [
   {
-    "site": "https://www.google.com/search?q=jogos&oq=j&gs_lcrp=EgZjaHJvbWUqDQgCEAAYgwEYsQMYgAQyBggAEEUYOTIQCAEQLhjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDIHCAQQABiABDIHCAUQABiABDIKCAYQABixAxiABDINCAcQLhiDARixAxiABDIHCAgQABiPAjIHCAkQABiPAtIBCTE1NDEwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
-    "texto": "click here",
-    "href": "/search?q=jogos&sca_esv=1e618ffcd8ec6d84&ie=UTF-8&emsg=SG_REL&sei=I7MPaLurJIXW1sQP38zTuAE"
+    "site": "https://open.spotify.com/intl-pt/",
+    "texto": "https://open.spotify.com/intl-pt/",
+    "href": "https://open.spotify.com/intl-pt/"
   },
   {
-    "site": "https://www.google.com/search?q=jogos&oq=j&gs_lcrp=EgZjaHJvbWUqDQgCEAAYgwEYsQMYgAQyBggAEEUYOTIQCAEQLhjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDIHCAQQABiABDIHCAUQABiABDIKCAYQABixAxiABDINCAcQLhiDARixAxiABDIHCAgQABiPAjIHCAkQABiPAtIBCTE1NDEwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+    "site": "https://www.google.com/search?q=whatsapp&oq=wha&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyCggBEC4YsQMYgAQyDwgCEEUYORiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEINDk5M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "texto": "https://www.google.com/search?q=whatsapp&oq=wha&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyCggBEC4YsQMYgAQyDwgCEEUYORiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEINDk5M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "href": "https://www.google.com/search?q=whatsapp&oq=wha&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyCggBEC4YsQMYgAQyDwgCEEUYORiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEINDk5M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
+  },
+  {
+    "site": "https://www.google.com/search?q=whatsapp&oq=wha&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyCggBEC4YsQMYgAQyDwgCEEUYORiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEINDk5M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "texto": "click here",
+    "href": "/search?q=whatsapp&sca_esv=1e618ffcd8ec6d84&ie=UTF-8&emsg=SG_REL&sei=GQEQaMeeMr7T1sQPz46pmAs"
+  },
+  {
+    "site": "https://www.google.com/search?q=whatsapp&oq=wha&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyCggBEC4YsQMYgAQyDwgCEEUYORiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEINDk5M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
     "texto": "feedback",
     "href": "https://support.google.com/websearch"
   },
   {
-    "site": "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzjYuMmD0YktOLEvMyQcALh4FSA&q=cavalo&oq=cava&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCQgAEEUYORiABDIHCAEQLhiABDIVCAIQLhgKGIMBGMcBGLEDGNEDGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
-    "texto": "click here",
-    "href": "/search?q=cavalo&sca_esv=1e618ffcd8ec6d84&ie=UTF-8&emsg=SG_REL&sei=JbMPaKGEM_Cb1sQPpsTdqQs"
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "العَرَبِيَّةArabic",
+    "href": "https://open.spotify.com/intl-ar"
   },
   {
-    "site": "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwzjYuMmD0YktOLEvMyQcALh4FSA&q=cavalo&oq=cava&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCQgAEEUYORiABDIHCAEQLhiABDIVCAIQLhgKGIMBGMcBGLEDGNEDGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "DeutschGerman",
+    "href": "https://open.spotify.com/intl-de"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "Español de EspañaEuropean Spanish",
+    "href": "https://open.spotify.com/intl-es"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "FrançaisFrench",
+    "href": "https://open.spotify.com/intl-fr"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "Bahasa IndonesiaIndonesian",
+    "href": "https://open.spotify.com/intl-id"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "ItalianoItalian",
+    "href": "https://open.spotify.com/intl-it"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "日本語Japanese",
+    "href": "https://open.spotify.com/intl-ja"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "Português do BrasilBrazilian Portuguese",
+    "href": "https://open.spotify.com/intl-pt"
+  },
+  {
+    "site": "https://open.spotify.com/intl-pt",
+    "texto": "TürkçeTurkish",
+    "href": "https://open.spotify.com/intl-tr"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "",
+    "href": "/"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Forgot password?",
+    "href": "/checkpoint/rp/request-password-reset?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Join now",
+    "href": "/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "User Agreement",
+    "href": "/legal/user-agreement"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Privacy Policy",
+    "href": "/legal/privacy-policy"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Cookie Policy",
+    "href": "/legal/cookie-policy"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "User Agreement",
+    "href": "/legal/user-agreement?trk=d_checkpoint_lg_consumerLogin_ft_user_agreement"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Privacy Policy",
+    "href": "/legal/privacy-policy?trk=d_checkpoint_lg_consumerLogin_ft_privacy_policy"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Community Guidelines",
+    "href": "/help/linkedin/answer/34593?lang=en&trk=d_checkpoint_lg_consumerLogin_ft_community_guidelines"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Cookie Policy",
+    "href": "/legal/cookie-policy?trk=d_checkpoint_lg_consumerLogin_ft_cookie_policy"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Copyright Policy",
+    "href": "/legal/copyright-policy?trk=d_checkpoint_lg_consumerLogin_ft_copyright_policy"
+  },
+  {
+    "site": "https://www.linkedin.com/feed/",
+    "texto": "Send Feedback",
+    "href": "/help/linkedin?trk=d_checkpoint_lg_consumerLogin_ft_send_feedback&lang=en"
+  },
+  {
+    "site": "https://www.google.com/search?q=youtube&oq=yo&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyDQgBEC4YgwEYsQMYgAQyBggCEEUYQDIPCAMQRRg5GIMBGLEDGIAEMg0IBBAAGIMBGLEDGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEHODg3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+    "texto": "click here",
+    "href": "/search?q=youtube&sca_esv=6ff89c181547cd34&ie=UTF-8&emsg=SG_REL&sei=3QkQaMOlM_yI4dUPzb_ikQI"
+  },
+  {
+    "site": "https://www.google.com/search?q=youtube&oq=yo&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyDQgBEC4YgwEYsQMYgAQyBggCEEUYQDIPCAMQRRg5GIMBGLEDGIAEMg0IBBAAGIMBGLEDGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEHODg3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+    "texto": "feedback",
+    "href": "https://support.google.com/websearch"
+  },
+  {
+    "site": "https://www.google.com/search?q=links&sca_esv=6ff89c181547cd34&ei=xwkQaKqeD5Ck1sQP-quQmAk&ved=0ahUKEwjqndLJ6_uMAxUQkpUCHfoVBJMQ4dUDCBA&uact=5&oq=links&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWxpbmtzMhAQABiABBixAxhDGIMBGIoFMhMQLhiABBixAxjRAxhDGMcBGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBSP4ZUPYHWN4RcAJ4AZABAJgBmAGgAeoEqgEDMS40uAEDyAEA-AEBmAIHoAKoBagCCsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICEBAAGAMYtAIY6gIYjwHYAQHCAggQLhiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgILEC4YgAQYsQMYgwHCAgsQLhiABBjRAxjHAcICDhAuGIAEGLEDGNEDGMcBwgIKEC4YgAQYQxiKBcICDRAuGIAEGLEDGEMYigXCAhIQLhiABBjRAxhDGMcBGIoFGArCAg0QLhiABBhDGNQCGIoFwgIQEC4YgAQY0QMYQxjHARiKBZgDCPEF9Snkf6exoG2IBgGQBgq6BgQIARgHkgcDMi41oAfiTLIHAzAuNbgHkgU&sclient=gws-wiz-serp",
+    "texto": "click here",
+    "href": "/search?q=links&sca_esv=6ff89c181547cd34&ie=UTF-8&emsg=SG_REL&sei=pg8QaMi5MKPm1sQPtKWooAY"
+  },
+  {
+    "site": "https://www.google.com/search?q=links&sca_esv=6ff89c181547cd34&ei=xwkQaKqeD5Ck1sQP-quQmAk&ved=0ahUKEwjqndLJ6_uMAxUQkpUCHfoVBJMQ4dUDCBA&uact=5&oq=links&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWxpbmtzMhAQABiABBixAxhDGIMBGIoFMhMQLhiABBixAxjRAxhDGMcBGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBSP4ZUPYHWN4RcAJ4AZABAJgBmAGgAeoEqgEDMS40uAEDyAEA-AEBmAIHoAKoBagCCsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICEBAAGAMYtAIY6gIYjwHYAQHCAggQLhiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgILEC4YgAQYsQMYgwHCAgsQLhiABBjRAxjHAcICDhAuGIAEGLEDGNEDGMcBwgIKEC4YgAQYQxiKBcICDRAuGIAEGLEDGEMYigXCAhIQLhiABBjRAxhDGMcBGIoFGArCAg0QLhiABBhDGNQCGIoFwgIQEC4YgAQY0QMYQxjHARiKBZgDCPEF9Snkf6exoG2IBgGQBgq6BgQIARgHkgcDMi41oAfiTLIHAzAuNbgHkgU&sclient=gws-wiz-serp",
     "texto": "feedback",
     "href": "https://support.google.com/websearch"
   }
