@@ -14,6 +14,10 @@ Etapas {
     
 }
 
+O QUE EU TENHO QUE FAZER AMANHA {
+    resolver a estilizaçao e o script.js
+}
+
 
 arquivo de index.js para caso precisar:
     //index.js

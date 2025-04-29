@@ -1,37 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatorio do Crawler</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crawler de Sites</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header>
-        <h1>Crawler de Sites</h1>
-    </header>
+  <header>
+    <h1>Crawler de Sites</h1>
+  </header>
 
-    <main>
-        <section class="form_section">
-            <h2>Adicionar Novo Siter</h2>
-            <form id="siteForm">
-                <input type="url" id="novaUrl" placeholder="Digite a URL..." required>
-                <button type="submit">Adicionar</button>
-            </form>
-        </section>
-    </main>
+  <main>
+    <section class="form-section">
+      <h2>Adicionar Novo Site</h2>
+      <form id="siteForm">
+        <input type="url" id="novaUrl" placeholder="Digite a URL..." required />
+        <div class="buttons">
+          <button type="submit" onclick="enviarUrl()">Adicionar</button>
+          <button type="button" onclick="acessarDados()">📂 Ver Dados</button>
+          <button type="button" onclick="fecharDados()">❌ Fechar</button>
+        </div>
+      </form>
+    </section>
 
-    <h2>adicionar site </h2>
-    <input type="text" id="novaUrl" placeholder="Cole a URL aqui..." style="width: 300px; padding: 5px;">
-    <button onclick="enviarUrl()">➕ Adicionar URL</button>
+    <section class="dados-section" id="conteudo"></section>
 
-    <button onclick="acessarDados()">📂 Ver Dados</button>
-    <button onclick="fecharDados()">❌ Fechar</button>
+    <section class="links-section">
+      <h2>Links Coletados</h2>
+      <ul id="linksColetados"></ul>
+    </section>
+  </main>
 
-    <div id="conteudo"></div>
+  <footer>
+    <p>&copy; 2025 - Projeto Crawler</p>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>
