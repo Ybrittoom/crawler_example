@@ -1,3 +1,7 @@
+
+O QUE EU TENHO QUE RESOLVER‼️⚠️ {
+    resolver a estilizaçao e o script.js
+}
 dependencias {
     axios,
     cheerio,
@@ -11,11 +15,7 @@ Etapas {
     vistar varios sites,
     criar um frontend,
     salvando separadamente os links em arquivos json dentro de logs
-    
-}
-
-O QUE EU TENHO QUE FAZER AMANHA {
-    resolver a estilizaçao e o script.js
+    criei uma div onde seleciona um dos sites que ja foram visitados pelo sitema crawler e mostras os links que o sistema obteu do site selecionado.
 }
 
 
