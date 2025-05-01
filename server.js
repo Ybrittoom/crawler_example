@@ -120,6 +120,15 @@ async function crawler(url) {
             }
         })
 
+        $('img').each((_, el) => {
+            let src = $(el).attr('src')
+            if (src && !src.startWith('http')) {
+                // convertendo caminhos relativos em absoluto
+                const base = new URL(url)
+                src = new URL(src, base).href;
+            }
+        })
+
         const resultado = {
             titulo: title,
             site: url,
