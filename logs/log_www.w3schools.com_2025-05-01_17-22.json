@@ -1,0 +1,4017 @@
+{
+  "titulo": "HTML option tag",
+  "site": "https://www.w3schools.com/tags/tag_option.asp",
+  "totalLinks": 801,
+  "links": [
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorials",
+      "href": "javascript:void(0)"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercises",
+      "href": "javascript:void(0)"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificates",
+      "href": "javascript:void(0)"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Services",
+      "href": "javascript:void(0)"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Menu",
+      "href": "javascript:void(0)"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "javascript:void(0);"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Log in",
+      "href": "https://profile.w3schools.com/log-in"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Sign Up",
+      "href": "https://profile.w3schools.com/sign-up"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "★\n\n        +1",
+      "href": "https://profile.w3schools.com/log-in"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Get Certified",
+      "href": "https://campus.w3schools.com/collections/course-catalog"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "For Teachers",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Spaces",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Plus",
+      "href": "/plus/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Get Certified",
+      "href": "https://campus.w3schools.com/collections/course-catalog"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "For Teachers",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Spaces",
+      "href": "https://spaces.w3schools.com/space/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Plus",
+      "href": "/plus/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "My W3Schools",
+      "href": "https://pathfinder.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Spaces",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Get Certified",
+      "href": "https://campus.w3schools.com/collections/course-catalog"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Plus",
+      "href": "/plus/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Academy",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Logout",
+      "href": "https://profile.w3schools.com/logout"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.youtube.com/@w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.linkedin.com/company/w3schools.com/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://discord.com/invite/w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.facebook.com/w3schoolscom/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.instagram.com/w3schools.com_official/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    HTML",
+      "href": "/html/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/html/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/tags/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    CSS",
+      "href": "/css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/cssref/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    RWD",
+      "href": "/css/css_rwd_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/css/css_rwd_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Bootstrap",
+      "href": "/bootstrap/bootstrap_ver.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Overview",
+      "href": "/bootstrap/bootstrap_ver.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    W3.CSS",
+      "href": "/w3css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/w3css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/w3css/w3css_references.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Sass",
+      "href": "/sass/default.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/sass/default.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/sass/sass_functions_string.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Colors",
+      "href": "/colors/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/colors/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/colors/colors_fs595.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Icons",
+      "href": "/icons/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/icons/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/icons/icons_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    SVG",
+      "href": "/graphics/svg_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/graphics/svg_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/graphics/svg_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Canvas",
+      "href": "/graphics/canvas_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/graphics/canvas_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/graphics/canvas_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Graphics",
+      "href": "/graphics/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/graphics/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Character Sets",
+      "href": "/charsets/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/charsets/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    How To",
+      "href": "/howto/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/howto/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    AI",
+      "href": "/ai/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/ai/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Generative AI",
+      "href": "/gen_ai/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    ChatGPT-3.5",
+      "href": "/gen_ai/chatgpt-3-5/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/chatgpt-3-5/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    ChatGPT-4",
+      "href": "/gen_ai/chatgpt-4/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/chatgpt-4/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Google Bard",
+      "href": "/gen_ai/bard/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/bard/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Machine Learning",
+      "href": "/python/python_ml_getting_started.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/python_ml_getting_started.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    DSA",
+      "href": "/dsa/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/dsa/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Data Science",
+      "href": "/datascience/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/datascience/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    NumPy",
+      "href": "/python/numpy/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/numpy/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Pandas",
+      "href": "/python/pandas/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/pandas/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    SciPy",
+      "href": "/python/scipy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/scipy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Matplotlib",
+      "href": "/python/matplotlib_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/matplotlib_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Statistics",
+      "href": "/statistics/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/statistics/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Excel",
+      "href": "/excel/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/excel/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Google Sheets",
+      "href": "/googlesheets/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/googlesheets/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Website\n                    \n                      HOT!",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Server\n                    NEW",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Where To Start",
+      "href": "/where_to_start.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Templates",
+      "href": "/w3css/w3css_templates.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Statistics",
+      "href": "/browsers/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Certificates",
+      "href": "https://campus.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Development",
+      "href": "/whatis/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Introduction to Programming",
+      "href": "/programming/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Code Editor",
+      "href": "/tryit/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Test Your Typing Speed",
+      "href": "/typingspeed/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Play a Code Game",
+      "href": "/codegame/index.html"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Cyber Security",
+      "href": "/cybersecurity/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Accessibility",
+      "href": "/accessibility/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Join our Newsletter",
+      "href": "https://campus.w3schools.com/pages/newsletter"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    JavaScript",
+      "href": "/js/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/js/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/jsref/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    React",
+      "href": "/react/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/react/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    jQuery",
+      "href": "/jquery/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/jquery/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/jquery/jquery_ref_overview.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Vue",
+      "href": "/vue/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/vue/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/vue/vue_ref_builtin-attributes.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    AngularJS",
+      "href": "/angular/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/angular/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/angular/angular_ref_directives.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    JSON",
+      "href": "/js/js_json_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/js/js_json_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/jsref/jsref_obj_json.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    AJAX",
+      "href": "/js/js_ajax_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/js/js_ajax_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    AppML",
+      "href": "/appml/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/appml/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/appml/appml_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    W3.JS",
+      "href": "/w3js/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/w3js/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/w3js/w3js_references.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Website\n                    \n                      HOT!",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Server\n                    NEW",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Where To Start",
+      "href": "/where_to_start.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Templates",
+      "href": "/w3css/w3css_templates.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Statistics",
+      "href": "/browsers/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Certificates",
+      "href": "https://campus.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Development",
+      "href": "/whatis/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Introduction to Programming",
+      "href": "/programming/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Code Editor",
+      "href": "/tryit/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Test Your Typing Speed",
+      "href": "/typingspeed/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Play a Code Game",
+      "href": "/codegame/index.html"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Cyber Security",
+      "href": "/cybersecurity/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Accessibility",
+      "href": "/accessibility/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Join our Newsletter",
+      "href": "https://campus.w3schools.com/pages/newsletter"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Python",
+      "href": "/python/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/python/python_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    SQL",
+      "href": "/sql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/sql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/sql/sql_ref_keywords.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    MySQL",
+      "href": "/mysql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/mysql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/mysql/mysql_datatypes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    PHP",
+      "href": "/php/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/php/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/php/php_ref_overview.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Java",
+      "href": "/java/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/java/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/java/java_ref_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    C",
+      "href": "/c/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/c/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/c/c_ref_reference.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    C++",
+      "href": "/cpp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/cpp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/cpp/cpp_ref_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    C#",
+      "href": "/cs/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/cs/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    R",
+      "href": "/r/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/r/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Kotlin",
+      "href": "/kotlin/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/kotlin/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Rust",
+      "href": "/rust/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/rust/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Go",
+      "href": "/go/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/go/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Django",
+      "href": "/django/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/django/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/django/django_ref_template_tags.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    PostgreSQL",
+      "href": "/postgresql/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/postgresql/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    TypeScript",
+      "href": "/typescript/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/typescript/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    ASP",
+      "href": "/asp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/asp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/asp/asp_ref_vbscript_functions.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Node.js",
+      "href": "/nodejs/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/nodejs/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/nodejs/ref_modules.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Raspberry Pi",
+      "href": "/nodejs/nodejs_raspberrypi.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/nodejs/nodejs_raspberrypi.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Git",
+      "href": "/git/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/git/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Bash",
+      "href": "/bash/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/bash/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    MongoDB",
+      "href": "/mongodb/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/mongodb/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    XML",
+      "href": "/xml/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/xml/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Reference",
+      "href": "/xml/dom_nodetype.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    AI",
+      "href": "/ai/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/ai/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Generative AI",
+      "href": "/gen_ai/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    ChatGPT-3.5",
+      "href": "/gen_ai/chatgpt-3-5/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/chatgpt-3-5/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    ChatGPT-4",
+      "href": "/gen_ai/chatgpt-4/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/chatgpt-4/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Google Bard",
+      "href": "/gen_ai/bard/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/gen_ai/bard/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Machine Learning",
+      "href": "/python/python_ml_getting_started.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/python_ml_getting_started.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    DSA",
+      "href": "/dsa/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/dsa/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Data Science",
+      "href": "/datascience/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/datascience/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    NumPy",
+      "href": "/python/numpy/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/numpy/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Pandas",
+      "href": "/python/pandas/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/pandas/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    SciPy",
+      "href": "/python/scipy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/scipy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Matplotlib",
+      "href": "/python/matplotlib_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/python/matplotlib_intro.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Statistics",
+      "href": "/statistics/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/statistics/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Excel",
+      "href": "/excel/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/excel/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Learn\n                    Google Sheets",
+      "href": "/googlesheets/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Tutorial",
+      "href": "/googlesheets/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Website\n                    \n                      HOT!",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Server\n                    NEW",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Where To Start",
+      "href": "/where_to_start.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Templates",
+      "href": "/w3css/w3css_templates.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Statistics",
+      "href": "/browsers/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Certificates",
+      "href": "https://campus.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Development",
+      "href": "/whatis/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Introduction to Programming",
+      "href": "/programming/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Code Editor",
+      "href": "/tryit/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Test Your Typing Speed",
+      "href": "/typingspeed/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Play a Code Game",
+      "href": "/codegame/index.html"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Cyber Security",
+      "href": "/cybersecurity/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Accessibility",
+      "href": "/accessibility/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Join our Newsletter",
+      "href": "https://campus.w3schools.com/pages/newsletter"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML",
+      "href": "/html/html_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/html/html_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/html/html_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS",
+      "href": "/css/css_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/css/css_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/css/css_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap 3",
+      "href": "/bootstrap/bootstrap_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/bootstrap/bootstrap_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/bootstrap/bootstrap_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap 4",
+      "href": "/bootstrap4/bootstrap_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/bootstrap4/bootstrap_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/bootstrap4/bootstrap_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap 5",
+      "href": "/bootstrap5/bootstrap_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/bootstrap5/bootstrap_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/bootstrap5/bootstrap_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DSA",
+      "href": "/dsa/dsa_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/dsa/dsa_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/dsa/dsa_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NumPy",
+      "href": "/python/numpy/numpy_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/numpy/numpy_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/numpy/numpy_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Pandas",
+      "href": "/python/pandas/pandas_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/pandas/pandas_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/pandas/pandas_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SciPy",
+      "href": "/python/scipy/scipy_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/scipy/scipy_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/scipy/scipy_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Excel",
+      "href": "/excel/excel_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/excel/excel_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "What is an Exercise?",
+      "href": "/exercises/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "What is a Quiz?",
+      "href": "/quiztest/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JavaScript",
+      "href": "/js/js_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/js/js_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/js/js_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "React",
+      "href": "/react/react_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/react/react_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/react/react_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "jQuery",
+      "href": "/jquery/jquery_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/jquery/jquery_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/jquery/jquery_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Vue",
+      "href": "/vue/vue_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/vue/vue_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/vue/vue_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Python",
+      "href": "/python/python_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/python_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/python_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL",
+      "href": "/sql/sql_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/sql/sql_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/sql/sql_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "MySQL",
+      "href": "/mysql/mysql_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/mysql/mysql_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/mysql/mysql_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP",
+      "href": "/php/php_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/php/php_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/php/php_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Java",
+      "href": "/java/java_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/java/java_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/java/java_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C",
+      "href": "/c/c_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/c/c_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/c/c_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C++",
+      "href": "/cpp/cpp_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/cpp/cpp_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/cpp/cpp_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C#",
+      "href": "/cs/cs_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/cs/cs_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/cs/cs_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "R",
+      "href": "/r/r_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/r/r_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/r/r_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Kotlin",
+      "href": "/kotlin/kotlin_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/kotlin/kotlin_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/kotlin/kotlin_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Django",
+      "href": "/django/django_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/django/django_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/django/django_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PostgreSQL",
+      "href": "/postgresql/postgresql_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/postgresql/postgresql_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/postgresql/postgresql_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "TypeScript",
+      "href": "/typescript/typescript_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/typescript/typescript_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/typescript/typescript_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Git",
+      "href": "/git/git_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/git/git_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/git/git_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bash",
+      "href": "/bash/bash_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/bash/bash_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/bash/bash_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Go",
+      "href": "/go/go_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/go/go_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "MongoDB",
+      "href": "/mongodb/mongodb_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/mongodb/mongodb_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DSA",
+      "href": "/dsa/dsa_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/dsa/dsa_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/dsa/dsa_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NumPy",
+      "href": "/python/numpy/numpy_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/numpy/numpy_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/numpy/numpy_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Pandas",
+      "href": "/python/pandas/pandas_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/pandas/pandas_exercises.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/pandas/pandas_quiz.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SciPy",
+      "href": "/python/scipy/scipy_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/python/scipy/scipy_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quiz",
+      "href": "/python/scipy/scipy_quiz.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Excel",
+      "href": "/excel/excel_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercise",
+      "href": "/excel/excel_exercises.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "What is an Exercise?",
+      "href": "/exercises/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "What is a Quiz?",
+      "href": "/quiztest/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML",
+      "href": "https://campus.w3schools.com/collections/certifications/products/html-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/html-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/html-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS",
+      "href": "https://campus.w3schools.com/collections/certifications/products/css-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/css-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/css-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap 3",
+      "href": "https://campus.w3schools.com/collections/certifications/products/bootstrap-3-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/bootstrap-3-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/single-courses/products/bootstrap-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap 4",
+      "href": "https://campus.w3schools.com/collections/certifications/products/bootstrap-4-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/bootstrap-4-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/single-courses/products/bootstrap-4-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap 5",
+      "href": "https://campus.w3schools.com/collections/certifications/products/bootstrap-5-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/bootstrap-5-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DSA",
+      "href": "https://campus.w3schools.com/products/dsa-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/dsa-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Data Analytics",
+      "href": "https://campus.w3schools.com/products/data-analytics-program"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/data-analytics-program"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NumPy",
+      "href": "https://campus.w3schools.com/products/numpy-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/numpy-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/numpy-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Pandas",
+      "href": "https://campus.w3schools.com/products/pandas-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/pandas-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/pandas-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Excel",
+      "href": "https://campus.w3schools.com/products/excel-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/excel-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Social Media",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/social-media-marketing-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/social-media-marketing-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "What is a Certificate?",
+      "href": "https://campus.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Full Access\n                    \n                      Best Value!",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/w3schools-full-access-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Front End",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/front-end-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Dev.",
+      "href": "https://campus.w3schools.com/collections/certifications/products/modern-web-development-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/modern-web-development-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/learn-modern-web-development"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web App",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-application-development-certificates"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-application-development-certificates"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/web-application-development-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Design",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-design-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-design-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/learn-web-design"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JavaScript",
+      "href": "https://campus.w3schools.com/collections/certifications/products/javascript-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/javascript-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/javascript-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "React",
+      "href": "https://campus.w3schools.com/collections/certifications/products/react-js-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/react-js-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/react-js-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "jQuery",
+      "href": "https://campus.w3schools.com/collections/certifications/products/jquery-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/jquery-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/jquery-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Vue",
+      "href": "https://campus.w3schools.com/products/vue-js-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/vue-js-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Full Access\n                    \n                      Best Value!",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/w3schools-full-access-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Front End",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/front-end-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Dev.",
+      "href": "https://campus.w3schools.com/collections/certifications/products/modern-web-development-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/modern-web-development-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/learn-modern-web-development"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web App",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-application-development-certificates"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-application-development-certificates"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/web-application-development-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Design",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-design-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-design-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/learn-web-design"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Full Access\n                    \n                      Best Value!",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/w3schools-full-access-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Front End",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/front-end-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Dev.",
+      "href": "https://campus.w3schools.com/collections/certifications/products/modern-web-development-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/modern-web-development-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/learn-modern-web-development"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web App",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-application-development-certificates"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-application-development-certificates"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/web-application-development-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Design",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-design-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/web-design-certification"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/learn-web-design"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Python",
+      "href": "https://campus.w3schools.com/collections/certifications/products/python-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/python-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/python-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL",
+      "href": "https://campus.w3schools.com/collections/certifications/products/sql-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/sql-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/sql-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "MySQL",
+      "href": "https://campus.w3schools.com/collections/certifications/products/mysql-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/mysql-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP",
+      "href": "https://campus.w3schools.com/collections/certifications/products/php-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/php-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/php-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Java",
+      "href": "https://campus.w3schools.com/collections/certifications/products/java-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/java-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/java-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C",
+      "href": "https://campus.w3schools.com/products/c-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/c-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C++",
+      "href": "https://campus.w3schools.com/collections/certifications/products/c-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/c-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/c-course-1"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C#",
+      "href": "https://campus.w3schools.com/collections/certifications/products/c-certificate-1"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/c-certificate-1"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/c-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "R",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/r-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/r-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Django",
+      "href": "https://campus.w3schools.com/products/django-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/django-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NodeJS",
+      "href": "https://campus.w3schools.com/products/nodejs-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/nodejs-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "TypeScript",
+      "href": "https://campus.w3schools.com/collections/certifications/products/typescript-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/typescript-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/learn-typescript"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "XML",
+      "href": "https://campus.w3schools.com/collections/certifications/products/xml-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/xml-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-catalog/products/xml-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Cyber Security",
+      "href": "https://campus.w3schools.com/collections/certifications/products/cyber-security-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/cyber-security-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/cyber-security-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Accessibility",
+      "href": "https://campus.w3schools.com/collections/certifications/products/accessibility-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/accessibility-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/accessibility-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DSA",
+      "href": "https://campus.w3schools.com/products/dsa-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exam",
+      "href": "https://campus.w3schools.com/products/dsa-certification-exam"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Data Analytics",
+      "href": "https://campus.w3schools.com/products/data-analytics-program"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/data-analytics-program"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NumPy",
+      "href": "https://campus.w3schools.com/products/numpy-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/numpy-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Pandas",
+      "href": "https://campus.w3schools.com/products/pandas-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/products/pandas-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Excel",
+      "href": "https://campus.w3schools.com/products/excel-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Certificate",
+      "href": "https://campus.w3schools.com/products/excel-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Social Media",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/social-media-marketing-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Course",
+      "href": "https://campus.w3schools.com/collections/course-best-sellers/products/social-media-marketing-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "What is a Certificate?",
+      "href": "https://campus.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Free Tutorials\n                    \n                      Enjoy our free tutorials like millions of other internet\n                      users since 1999",
+      "href": "/tutorials/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "References\n                    \n                      Explore our selection of references covering all popular\n                      coding languages",
+      "href": "/references/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Website\n                    \n                      Create your own website with\n                      W3Schools Spaces\n                      - no setup required",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Exercises\n                    Test your skills with different exercises",
+      "href": "/exercises/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Quizzes\n                    Test yourself with multiple choice questions",
+      "href": "/quiztest/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Get Certified\n                    Document your knowledge",
+      "href": "https://campus.w3schools.com/collections/certifications"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Log in / Sign Up\n                    \n                      Create a\n                      free\n                      W3Schools Account to Improve Your Learning Experience",
+      "href": "https://profile.w3schools.com/sign-up"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "My Learning\n                    \n                      Track your learning progress at W3Schools and collect\n                      rewards",
+      "href": "https://profile.w3schools.com/sign-up"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Upgrade\n                    \n                      Become a PLUS user and unlock powerful features (ad-free,\n                      hosting, support,..)",
+      "href": "/plus/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Where To Start\n                    \n                      Not sure where you want to start? Follow our guided path",
+      "href": "/where_to_start.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Code Editor (Try it)\n                    \n                      With our online code editor, you can edit code and view\n                      the result in your browser",
+      "href": "/tryit/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Videos\n                    \n                      Learn the basics of HTML in a fun and engaging video\n                      tutorial",
+      "href": "/videos/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Templates\n                    \n                      We have created a bunch of responsive website templates\n                      you can use - for free!",
+      "href": "/w3css/w3css_templates.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Web Hosting\n                    \n                      Host your own website, and share it to the world with\n                      W3Schools Spaces",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Create a Server\n                    \n                      Create your own server using Python, PHP, React.js,\n                      Node.js, Java, C#, etc.",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "How To's\n                    \n                      Large collection of code snippets for HTML, CSS and\n                      JavaScript",
+      "href": "/howto/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS Framework\n                    \n                      Build fast and responsive sites using our free\n                      W3.CSS\n                      framework",
+      "href": "/w3css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Browser Statistics\n                    Read long term trends of browser usage",
+      "href": "/browsers/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Typing Speed\n                    Test your typing speed",
+      "href": "/typingspeed/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Color Picker\n                    \n                      Use our color picker to find different RGB, HEX and HSL\n                      colors.",
+      "href": "/colors/colors_picker.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Code Game\n                    \n                      W3Schools Coding Game! Help the lynx collect pine cones",
+      "href": "/codegame/index.html"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Newsletter\n                    \n                      Join our newsletter and get access to exclusive content\n                      every month",
+      "href": "https://campus.w3schools.com/pages/newsletter"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "For Teachers\n                    \n                      Contact us about W3Schools Academy for educational\n                      institutions",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "For Businesses\n                    \n                      Contact us about W3Schools Academy for your organization",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.youtube.com/@w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.linkedin.com/company/w3schools.com/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://discord.com/invite/w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.facebook.com/w3schoolscom/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.instagram.com/w3schools.com_official/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "javascript:void(0);"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML",
+      "href": "/html/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS",
+      "href": "/css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JAVASCRIPT",
+      "href": "/js/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL",
+      "href": "/sql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PYTHON",
+      "href": "/python/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JAVA",
+      "href": "/java/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP",
+      "href": "/php/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HOW TO",
+      "href": "/howto/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "W3.CSS",
+      "href": "/w3css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C",
+      "href": "/c/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C++",
+      "href": "/cpp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C#",
+      "href": "/cs/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "BOOTSTRAP",
+      "href": "/bootstrap/bootstrap_ver.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "REACT",
+      "href": "/react/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "MYSQL",
+      "href": "/mysql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JQUERY",
+      "href": "/jquery/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "EXCEL",
+      "href": "/excel/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "XML",
+      "href": "/xml/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DJANGO",
+      "href": "/django/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NUMPY",
+      "href": "/python/numpy/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PANDAS",
+      "href": "/python/pandas/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "NODEJS",
+      "href": "/nodejs/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DSA",
+      "href": "/dsa/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "TYPESCRIPT",
+      "href": "/typescript/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "ANGULAR",
+      "href": "/angular/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "GIT",
+      "href": "/git/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "POSTGRESQL",
+      "href": "/postgresql/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "MONGODB",
+      "href": "/mongodb/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "ASP",
+      "href": "/asp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "AI",
+      "href": "/ai/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "R",
+      "href": "/r/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "GO",
+      "href": "/go/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "KOTLIN",
+      "href": "/kotlin/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SASS",
+      "href": "/sass/default.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "VUE",
+      "href": "/vue/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "GEN AI",
+      "href": "/gen_ai/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SCIPY",
+      "href": "/python/scipy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CYBERSECURITY",
+      "href": "/cybersecurity/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "DATA SCIENCE",
+      "href": "/datascience/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "INTRO TO PROGRAMMING",
+      "href": "/programming/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "BASH",
+      "href": "/bash/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "RUST",
+      "href": "/rust/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "javascript:void(0)"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML by Alphabet",
+      "href": "default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML by Category",
+      "href": "ref_byfunc.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Browser Support",
+      "href": "ref_html_browsersupport.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Attributes",
+      "href": "ref_attributes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Global Attributes",
+      "href": "ref_standardattributes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Events",
+      "href": "ref_eventattributes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Colors",
+      "href": "ref_colornames.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Canvas",
+      "href": "ref_canvas.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Audio/Video",
+      "href": "ref_av_dom.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Character Sets",
+      "href": "ref_charactersets.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Doctypes",
+      "href": "ref_html_dtd.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML URL Encode",
+      "href": "ref_urlencode.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Language Codes",
+      "href": "ref_language_codes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Country Codes",
+      "href": "ref_country_codes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTTP Messages",
+      "href": "ref_httpmessages.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTTP Methods",
+      "href": "ref_httpmethods.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PX to EM Converter",
+      "href": "ref_pxtoemconversion.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Keyboard Shortcuts",
+      "href": "ref_keyboardshortcuts.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<!-->",
+      "href": "tag_comment.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<!DOCTYPE>",
+      "href": "tag_doctype.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<a>",
+      "href": "tag_a.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<abbr>",
+      "href": "tag_abbr.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<acronym>",
+      "href": "tag_acronym.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<address>",
+      "href": "tag_address.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<applet>",
+      "href": "tag_applet.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<area>",
+      "href": "tag_area.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<article>",
+      "href": "tag_article.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<aside>",
+      "href": "tag_aside.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<audio>",
+      "href": "tag_audio.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<b>",
+      "href": "tag_b.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<base>",
+      "href": "tag_base.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<basefont>",
+      "href": "tag_basefont.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<bdi>",
+      "href": "tag_bdi.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<bdo>",
+      "href": "tag_bdo.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<big>",
+      "href": "tag_big.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<blockquote>",
+      "href": "tag_blockquote.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<body>",
+      "href": "tag_body.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<br>",
+      "href": "tag_br.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<button>",
+      "href": "tag_button.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<canvas>",
+      "href": "tag_canvas.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<caption>",
+      "href": "tag_caption.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<center>",
+      "href": "tag_center.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<cite>",
+      "href": "tag_cite.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<code>",
+      "href": "tag_code.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<col>",
+      "href": "tag_col.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<colgroup>",
+      "href": "tag_colgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<data>",
+      "href": "tag_data.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<datalist>",
+      "href": "tag_datalist.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<dd>",
+      "href": "tag_dd.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<del>",
+      "href": "tag_del.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<details>",
+      "href": "tag_details.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<dfn>",
+      "href": "tag_dfn.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<dialog>",
+      "href": "tag_dialog.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<dir>",
+      "href": "tag_dir.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<div>",
+      "href": "tag_div.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<dl>",
+      "href": "tag_dl.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<dt>",
+      "href": "tag_dt.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<em>",
+      "href": "tag_em.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<embed>",
+      "href": "tag_embed.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<fieldset>",
+      "href": "tag_fieldset.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<figcaption>",
+      "href": "tag_figcaption.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<figure>",
+      "href": "tag_figure.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<font>",
+      "href": "tag_font.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<footer>",
+      "href": "tag_footer.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<form>",
+      "href": "tag_form.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<frame>",
+      "href": "tag_frame.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<frameset>",
+      "href": "tag_frameset.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<h1> - <h6>",
+      "href": "tag_hn.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<head>",
+      "href": "tag_head.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<header>",
+      "href": "tag_header.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<hgroup>",
+      "href": "tag_hgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<hr>",
+      "href": "tag_hr.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<html>",
+      "href": "tag_html.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<i>",
+      "href": "tag_i.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<iframe>",
+      "href": "tag_iframe.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<img>",
+      "href": "tag_img.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<input>",
+      "href": "tag_input.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<ins>",
+      "href": "tag_ins.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<kbd>",
+      "href": "tag_kbd.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<label>",
+      "href": "tag_label.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<legend>",
+      "href": "tag_legend.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<li>",
+      "href": "tag_li.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<link>",
+      "href": "tag_link.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<main>",
+      "href": "tag_main.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<map>",
+      "href": "tag_map.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<mark>",
+      "href": "tag_mark.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<menu>",
+      "href": "tag_menu.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<meta>",
+      "href": "tag_meta.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<meter>",
+      "href": "tag_meter.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<nav>",
+      "href": "tag_nav.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<noframes>",
+      "href": "tag_noframes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<noscript>",
+      "href": "tag_noscript.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<object>",
+      "href": "tag_object.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<ol>",
+      "href": "tag_ol.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<optgroup>",
+      "href": "tag_optgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<option>",
+      "href": "tag_option.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<output>",
+      "href": "tag_output.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<p>",
+      "href": "tag_p.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<param>",
+      "href": "tag_param.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<picture>",
+      "href": "tag_picture.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<pre>",
+      "href": "tag_pre.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<progress>",
+      "href": "tag_progress.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<q>",
+      "href": "tag_q.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<rp>",
+      "href": "tag_rp.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<rt>",
+      "href": "tag_rt.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<ruby>",
+      "href": "tag_ruby.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<s>",
+      "href": "tag_s.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<samp>",
+      "href": "tag_samp.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<script>",
+      "href": "tag_script.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<search>",
+      "href": "tag_search.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<section>",
+      "href": "tag_section.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<select>",
+      "href": "tag_select.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<small>",
+      "href": "tag_small.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<source>",
+      "href": "tag_source.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<span>",
+      "href": "tag_span.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<strike>",
+      "href": "tag_strike.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<strong>",
+      "href": "tag_strong.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<style>",
+      "href": "tag_style.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<sub>",
+      "href": "tag_sub.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<summary>",
+      "href": "tag_summary.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<sup>",
+      "href": "tag_sup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<svg>",
+      "href": "tag_svg.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<table>",
+      "href": "tag_table.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<tbody>",
+      "href": "tag_tbody.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<td>",
+      "href": "tag_td.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<template>",
+      "href": "tag_template.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<textarea>",
+      "href": "tag_textarea.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<tfoot>",
+      "href": "tag_tfoot.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<th>",
+      "href": "tag_th.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<thead>",
+      "href": "tag_thead.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<time>",
+      "href": "tag_time.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<title>",
+      "href": "tag_title.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<tr>",
+      "href": "tag_tr.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<track>",
+      "href": "tag_track.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<tt>",
+      "href": "tag_tt.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<u>",
+      "href": "tag_u.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<ul>",
+      "href": "tag_ul.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<var>",
+      "href": "tag_var.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<video>",
+      "href": "tag_video.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<wbr>",
+      "href": "tag_wbr.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "❮ Previous",
+      "href": "tag_optgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Complete HTML Reference",
+      "href": "default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Next ❯",
+      "href": "tag_output.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Try it Yourself »",
+      "href": "tryit.asp?filename=tryhtml_option"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<select>",
+      "href": "tag_select.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<optgroup>",
+      "href": "tag_optgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<datalist>",
+      "href": "tag_datalist.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "<optgroup>",
+      "href": "tag_optgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "disabled",
+      "href": "att_option_disabled.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "label",
+      "href": "att_option_label.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "selected",
+      "href": "att_option_selected.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "value",
+      "href": "att_option_value.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Global Attributes in HTML",
+      "href": "ref_standardattributes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Event Attributes in HTML",
+      "href": "ref_eventattributes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Try it Yourself »",
+      "href": "tryit.asp?filename=tryhtml5_datalist"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Try it Yourself »",
+      "href": "tryit.asp?filename=tryhtml_optgroup"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Option Object",
+      "href": "/jsref/dom_obj_option.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "❮ Previous",
+      "href": "tag_optgroup.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Complete HTML Reference",
+      "href": "default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Next ❯",
+      "href": "tag_output.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "★\n\n      +1",
+      "href": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Log in",
+      "href": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Sign Up",
+      "href": "https://profile.w3schools.com/sign-up?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://campus.w3schools.com/products/w3schools-full-access-course"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "COLOR PICKER",
+      "href": "/colors/colors_picker.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "/colors/colors_picker.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.youtube.com/@w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.linkedin.com/company/w3schools.com/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://discord.com/invite/w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.facebook.com/w3schoolscom/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.instagram.com/w3schools.com_official/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "//www.w3schools.com"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PLUS",
+      "href": "/plus/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SPACES",
+      "href": "/spaces/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "GET CERTIFIED",
+      "href": "https://campus.w3schools.com/collections/certifications"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "FOR TEACHERS",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "FOR BUSINESS",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CONTACT US",
+      "href": "javascript:void(0);"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Tutorial",
+      "href": "/html/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS Tutorial",
+      "href": "/css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JavaScript Tutorial",
+      "href": "/js/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "How To Tutorial",
+      "href": "/howto/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL Tutorial",
+      "href": "/sql/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Python Tutorial",
+      "href": "/python/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "W3.CSS Tutorial",
+      "href": "/w3css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap Tutorial",
+      "href": "/bootstrap/bootstrap_ver.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP Tutorial",
+      "href": "/php/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Java Tutorial",
+      "href": "/java/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C++ Tutorial",
+      "href": "/cpp/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "jQuery Tutorial",
+      "href": "/jquery/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Reference",
+      "href": "/tags/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS Reference",
+      "href": "/cssref/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JavaScript Reference",
+      "href": "/jsref/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL Reference",
+      "href": "/sql/sql_ref_keywords.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Python Reference",
+      "href": "/python/python_reference.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "W3.CSS Reference",
+      "href": "/w3css/w3css_references.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap Reference",
+      "href": "/bootstrap/bootstrap_ref_all_classes.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP Reference",
+      "href": "/php/php_ref_overview.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Colors",
+      "href": "/colors/colors_names.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Java Reference",
+      "href": "/java/java_ref_keywords.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Angular Reference",
+      "href": "/angular/angular_ref_directives.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "jQuery Reference",
+      "href": "/jquery/jquery_ref_overview.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Examples",
+      "href": "/html/html_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS Examples",
+      "href": "/css/css_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JavaScript Examples",
+      "href": "/js/js_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "How To Examples",
+      "href": "/howto/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL Examples",
+      "href": "/sql/sql_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Python Examples",
+      "href": "/python/python_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "W3.CSS Examples",
+      "href": "/w3css/w3css_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Bootstrap Examples",
+      "href": "/bootstrap/bootstrap_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP Examples",
+      "href": "/php/php_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Java Examples",
+      "href": "/java/java_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "XML Examples",
+      "href": "/xml/xml_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "jQuery Examples",
+      "href": "/jquery/jquery_examples.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Get Certified",
+      "href": "https://campus.w3schools.com/collections/course-catalog"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "HTML Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/html-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "CSS Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/css-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "JavaScript Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/javascript-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Front End Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/front-end-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "SQL Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/sql-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Python Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/python-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "PHP Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/php-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "jQuery Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/jquery-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Java Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/java-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C++ Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/c-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "C# Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/c-certificate-1"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "XML Certificate",
+      "href": "https://campus.w3schools.com/collections/certifications/products/xml-certificate"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.youtube.com/@w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.linkedin.com/company/w3schools.com/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://discord.com/invite/w3schools"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.facebook.com/w3schoolscom/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "",
+      "href": "https://www.instagram.com/w3schools.com_official/"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "FORUM",
+      "href": "/forum/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "ABOUT",
+      "href": "/about/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "ACADEMY",
+      "href": "/academy/index.php"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "terms of use",
+      "href": "/about/about_copyright.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "cookie and privacy policy",
+      "href": "/about/about_privacy.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "Copyright 1999-2025",
+      "href": "/about/about_copyright.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "texto": "W3Schools is Powered by W3.CSS",
+      "href": "//www.w3schools.com/w3css/default.asp"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "href": "https://www.w3schools.com/images/colorpicker2000.png",
+      "texto": "Imagem",
+      "tipo": "img"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "href": "https://www.w3schools.com/signup/lynxlogo.svg",
+      "texto": "Imagem",
+      "tipo": "img"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "href": "https://www.w3schools.com/images/img_fa_up_300.png",
+      "texto": "Imagem",
+      "tipo": "img"
+    },
+    {
+      "site": "https://www.w3schools.com/tags/tag_option.asp",
+      "href": "https://www.w3schools.com/images/colorpicker2000.png",
+      "texto": "Imagem",
+      "tipo": "img"
+    }
+  ],
+  "dataHoraLog": "01/05/2025 17:22"
+}

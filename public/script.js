@@ -72,12 +72,21 @@ function mostrarDados() {
                     const linha = document.createElement('div')
                     linha.className = 'link'
 
-                    const a = document.createElement('a')
-                    a.href = link.href
-                    a.target = '_blank'
-                    a.innerText = link.texto || link.href
+                    if (link.tipo === 'img') { //verifica se é imagem ou se link no site visitado bb
+                        const img = document.createElement('img')
+                        img.src = link.href;
+                        img.alt = link.texto || 'Imagem';
+                        img.style.maxWidth = '200px';
+                        img.style.marginTop = '8px';
+                        linha.appendChild(img);
+                    } else {
+                        const a = document.createElement('a');
+                        a.href = link.href;
+                        a.target = '_blank';
+                        a.innerText = link.texto || link.href;
+                        linha.appendChild(a);
+                    }
 
-                    linha.appendChild(a)
                     bloco.appendChild(linha)
                 })
 

@@ -76,13 +76,20 @@ body {
   }
   
   .link a {
-    color: #00bfff;
+    color: white;
     text-decoration: none;
     word-wrap: break-word;
     overflow-wrap: break-word;
     display: inline-block;
     max-width: 100%; /*isso aqui meu amoigo, garante para nao ultrapassar a div bb*/
     white-space: normal;
+  }
+
+  .link img {
+    display: block;
+    margin-top: 5px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 255, 204, 0.3);
   }
 
   .dados-section h2 {

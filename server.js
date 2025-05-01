@@ -67,7 +67,7 @@ app.post('/adicionar-site', async (req, res) => {
         fs.writeFileSync(caminhoCompleto, JSON.stringify(resultado, null, 2), 'utf-8')
         console.log(`📄 Log salvo em: ${caminhoCompleto}`)
 
-        res.json({ message: 'URl escaneada e dados adicionados com sucesso' })
+        res.json({ message: 'URL escaneada e dados adicionados com sucesso' })
 
     } catch (erro) {
         console.error(chalk.red('Erro ao ler dados.json:', erro))
@@ -122,20 +122,30 @@ async function crawler(url) {
 
         $('img').each((_, el) => {
             let src = $(el).attr('src')
-            if (src && !src.startWith('http')) {
+            if (src && !src.startsWith('http')) {
                 // convertendo caminhos relativos em absoluto
                 const base = new URL(url)
                 src = new URL(src, base).href;
             }
+        
+            if (src && src.startsWith('http')) {
+                links.push({
+                    site: url,
+                    href: src,
+                    texto: 'Imagem',
+                    tipo: 'img'
+                })
+            }
         })
 
+        
         const resultado = {
             titulo: title,
             site: url,
             totalLinks: links.length,
             links: links
         }
-
+        
         console.log(`✅ ${links.length} links encontrados em ${url}`)
         return resultado
     } catch (error) {
