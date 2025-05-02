@@ -201,6 +201,36 @@ async function iniciarCrawler() {
     console.log(chalk.green('\n✅ Todos os dados foram salvos em dados.json'))
 }
 
+const pastaImagens = path.join(__dirname, 'public', 'imagens')
+
+if (!fs.existsSync(pastaImagens)) {
+    fs.mkdirSync(pastaImagens, { recursive: true })
+}
+
+async function baixarImagem(urlImagem, nomeArquivo) {
+    const caminhoCompleto = path.join(pastaImagens, nomeArquivo)
+
+    try {
+        const response = await axios.get({
+            method: 'GET',
+            url: urlImagem,
+            responseType: 'stream'
+        })
+
+        await new Promise((resolve, reject) => {
+            const writer = fs.createWriteSrtream(caminhoCompleto)
+            response.data.pipe(writer)
+            writer.on('finish', resolve)
+            writer.on('error', reject)
+        })
+
+        return `/imagens/${nomeArquivo}`
+    } catch (error) {
+        console.error(`Erro ao baixar a imagen ${urlImagem}: `, error.message)
+        return null
+    }
+}
+
 
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`)

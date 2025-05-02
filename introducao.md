@@ -1,6 +1,6 @@
 
 O QUE EU TENHO QUE RESOLVER‼️⚠️ {
-    resolver a estilizaçao e o script.js
+    a opçao de selecionar o site e mostrar so as imagens
 }
 dependencias {
     axios,
