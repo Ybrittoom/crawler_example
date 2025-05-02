@@ -18,6 +18,11 @@ app.use(express.json())
 
 const sites = []
 
+const pastaImagens = path.join(__dirname, 'public', 'imagens')
+if (!fs.existsSync(pastaImagens)) {
+    fs.mkdirSync(pastaImagens, { recursive: true })
+}
+
 app.post('/adicionar-site', async (req, res) => {
     const { url } = req.body
 
@@ -120,30 +125,49 @@ async function crawler(url) {
             }
         })
 
-        $('img').each((_, el) => {
-            let src = $(el).attr('src')
-            if (src && !src.startsWith('http')) {
-                // convertendo caminhos relativos em absoluto
-                const base = new URL(url)
-                src = new URL(src, base).href;
+       const imagem = $('img').map(async (_, el) => {
+        let src = $(el).attr('src')
+        if (!src) return null
+
+        const dominio = new URL(url).origin
+        if (src.startsWith('/')) src = dominio + src
+        else if (!src.startsWith('http')) src = `${dominio}/${src}`
+
+        const extensao = path.extname(new URL(src).pathname).split('?')[0] || '.jpg'
+        const nomeArquivo = `${Date.now()}-${Math.floor(Math.random() * 10000)}${extensao}`
+        const caminhoLocal = await baixarImagem(src, nomeArquivo)
+
+        if (caminhoLocal) {
+            return { 
+                site: url,
+                tipo: 'img',
+                href: caminhoLocal, 
+                text: ''
             }
-        
-            if (src && src.startsWith('http')) {
-                links.push({
-                    site: url,
-                    href: src,
-                    texto: 'Imagem',
-                    tipo: 'img'
-                })
-            }
-        })
+        }
+        return null
+       }).get()
+
+       const imagensBaixadas = (await Promise.all(imagem)).filter(Boolean)
+
+       const todos = [...links, ...imagensBaixadas]
+
+       //Salavar no arquivo json
+       const caminhoJSON = path.join(__dirname, 'dados.json')
+       let dadosExistentes = []
+       if (fs.existsSync(caminhoJSON)) {
+        const raw = fs.readFileSync(caminhoJSON, 'utf8')
+            dadosExistentes = JSON.parse(raw)
+       }
+       dadosExistentes.push(...todos)
+       fs.writeFileSync(caminhoJSON, JSON.stringify(dadosExistentes, null, 2))
 
         
         const resultado = {
             titulo: title,
             site: url,
-            totalLinks: links.length,
-            links: links
+            totalLinks: todos.length,
+            links: todos
         }
         
         console.log(`✅ ${links.length} links encontrados em ${url}`)
@@ -201,24 +225,22 @@ async function iniciarCrawler() {
     console.log(chalk.green('\n✅ Todos os dados foram salvos em dados.json'))
 }
 
-const pastaImagens = path.join(__dirname, 'public', 'imagens')
-
-if (!fs.existsSync(pastaImagens)) {
-    fs.mkdirSync(pastaImagens, { recursive: true })
-}
 
 async function baixarImagem(urlImagem, nomeArquivo) {
     const caminhoCompleto = path.join(pastaImagens, nomeArquivo)
 
     try {
-        const response = await axios.get({
+        const response = await axios({
             method: 'GET',
             url: urlImagem,
-            responseType: 'stream'
+            responseType: 'stream',
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+            }
         })
 
         await new Promise((resolve, reject) => {
-            const writer = fs.createWriteSrtream(caminhoCompleto)
+            const writer = fs.createWriteStream(caminhoCompleto)
             response.data.pipe(writer)
             writer.on('finish', resolve)
             writer.on('error', reject)
@@ -226,8 +248,11 @@ async function baixarImagem(urlImagem, nomeArquivo) {
 
         return `/imagens/${nomeArquivo}`
     } catch (error) {
-        console.error(`Erro ao baixar a imagen ${urlImagem}: `, error.message)
-        return null
+        console.error(chalk.red(`Erro ao baixar a imagem ${urlImagem}: ${error.message}`))
+        if (error.response) {
+            console.error(`Status: ${error.response.status}`)
+            console.error(`Resposta: ${error.response.data}`)
+        }
     }
 }
 
