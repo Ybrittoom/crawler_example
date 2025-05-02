@@ -1,4 +1,6 @@
 //server.js
+
+//modulos e configuraçoes iniciais
 const express = require('express')
 const app = express()
 const port = 3001
@@ -8,24 +10,29 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 const chalk = require('chalk')
 
-app.use(express.static('public'))
+//Middleware e Arquivos Estáticos
+app.use(express.static('public')) //permite acessar arquivos da pasta public
+app.use(express.json()) //permite ler req.body em JSON
 
+//Envia o conteúdo do arquivo dados.json com todos os links salvos.
 app.get('/dados.json', (req, res) => {
     res.sendFile(path.join(__dirname + '/dados.json'))
 })
 
-app.use(express.json())
 
 const sites = []
 
+//Criando a pasta imagens(dentro de public) caso nao exista ela bb
 const pastaImagens = path.join(__dirname, 'public', 'imagens')
 if (!fs.existsSync(pastaImagens)) {
     fs.mkdirSync(pastaImagens, { recursive: true })
 }
 
-app.post('/adicionar-site', async (req, res) => {
-    const { url } = req.body
+//rota principal
 
+app.post('/adicionar-site', async (req, res) => {
+    //valida se a URL foi enviada
+    const { url } = req.body
     if (!url) {
         return res.status(400).json({ mensagem: 'URL inválida' })
     }
@@ -39,7 +46,7 @@ app.post('/adicionar-site', async (req, res) => {
             return res.status(500).json({ mensagem: 'Nenhum link encontrado na página' })
         }
 
-        //aqui le os dados atuais
+        //le os dados ja salvos no arquivo dados.json
         let dados = []
         if (fs.existsSync('dados.json')) {
             dados = JSON.parse(fs.readFileSync('dados.json', 'utf-8'))
@@ -49,7 +56,7 @@ app.post('/adicionar-site', async (req, res) => {
         dados.push(...resultado.links)
 
         // Remove links duplicados
-        const setDeLinks = new Set()
+        const setDeLinks = new Set() //usa um set pra eliminar duplicadas com base no site+href
         const linksUnicos = []
         for (let link of dados) {
             const chave = `${link.site}|${link.href}`
@@ -59,6 +66,7 @@ app.post('/adicionar-site', async (req, res) => {
             }
         }
 
+        //atualiza os dados.json
         fs.writeFileSync('dados.json', JSON.stringify(linksUnicos, null, 2), 'utf-8')
         console.log(chalk.green('✅ dados.json atualizado'))
 
@@ -104,18 +112,30 @@ if (!fs.existsSync(pastaLogs)) {
 }
 
 async function crawler(url) {
+    /*Acessa a URL
+      Extrai o titulo da pagina e todos os links<a>
+      Extrai e baixa todas as imagens <img>
+      Junta tudo e retorna um objeto com os dados*/
+
+      //tenta acessar a pagina
     try {
-        const response = await axios.get(url)
+        const response = await axios.get(url)//faz uma requisiçao GET para obter o conteudo HTML
         const html = response.data
-        const $ = cheerio.load(html)
+        const $ = cheerio.load(html)//carrega o html para poder manipular com JQUERY-LIKE
 
-        const title = $('title').text().trim()
-        const links = []
+        //pega o titulo da pagina
+        const title = $('title').text().trim()//extrai o conteudo <title> e remove os espços extras
 
+        //extrai todos os links
+        const links = [] 
         $('a').each((index, element) => {
             const texto = $(element).text()
             const href = $(element).attr('href')
-
+            /*para cada tag <a>, coleta o texto visivel e o atributo href
+              adiciona no array links, com:
+                site: URL base,
+                texto: conteudo dentro do link,
+                href: o destino do link*/
             if (href) {
                 links.push({
                     site: url,
@@ -125,19 +145,23 @@ async function crawler(url) {
             }
         })
 
+        //extrai e baixa todas as imagens
        const imagem = $('img').map(async (_, el) => {
-        let src = $(el).attr('src')
-        if (!src) return null
+        let src = $(el).attr('src') //percorre todas as tags <img> e pega o src
+        if (!src) return null //se src estiver vazio, ignora
 
+        //resolve o caminho da imagem
         const dominio = new URL(url).origin
-        if (src.startsWith('/')) src = dominio + src
-        else if (!src.startsWith('http')) src = `${dominio}/${src}`
+        if (src.startsWith('/')) src = dominio + src // se começar com '/', junta com a origem
+        else if (!src.startsWith('http')) src = `${dominio}/${src}` //se for relativo sem http, tambem ajusta
 
-        const extensao = path.extname(new URL(src).pathname).split('?')[0] || '.jpg'
-        const nomeArquivo = `${Date.now()}-${Math.floor(Math.random() * 10000)}${extensao}`
-        const caminhoLocal = await baixarImagem(src, nomeArquivo)
-
-        if (caminhoLocal) {
+        //define o nome e extensao da imagem
+        const extensao = path.extname(new URL(src).pathname).split('?')[0] || '.jpg' //decobre a extensao da imagem(ex. .jpg,png)
+        const nomeArquivo = `${Date.now()}-${Math.floor(Math.random() * 10000)}${extensao}` //cria um nome de arquivo unico com timestamp + numero aleatorio
+        
+        //baixa a imagem e salva
+        const caminhoLocal = await baixarImagem(src, nomeArquivo)//usa a funçao baixarImagem() para fazer o download e salvar
+        if (caminhoLocal) { //retorna um objeto com dados da imagem baixada caso de certo
             return { 
                 site: url,
                 tipo: 'img',
@@ -148,12 +172,14 @@ async function crawler(url) {
         return null
        }).get()
 
+       //aguarda todas as imagens baixarem
        const imagensBaixadas = (await Promise.all(imagem)).filter(Boolean)
 
+       //combina links e imagens
        const todos = [...links, ...imagensBaixadas]
 
-       //Salavar no arquivo json
-       const caminhoJSON = path.join(__dirname, 'dados.json')
+       //atualiza o arquivo dados.json
+       const caminhoJSON = path.join(__dirname, 'dados.json') //le o arquivo atual
        let dadosExistentes = []
        if (fs.existsSync(caminhoJSON)) {
         const raw = fs.readFileSync(caminhoJSON, 'utf8')
@@ -162,7 +188,7 @@ async function crawler(url) {
        dadosExistentes.push(...todos)
        fs.writeFileSync(caminhoJSON, JSON.stringify(dadosExistentes, null, 2))
 
-        
+        //retorna os resultados
         const resultado = {
             titulo: title,
             site: url,
@@ -172,26 +198,30 @@ async function crawler(url) {
         
         console.log(`✅ ${links.length} links encontrados em ${url}`)
         return resultado
-    } catch (error) {
+    } catch (error) { //tratamento de erro
         console.log(chalk.red(`Erro ao acessar ${url}:`, error.message))
         return null
     }
 }
 
 async function iniciarCrawler() {
-    const todos_os_links = []
+    const todos_os_links = [] //cria um array para ganhar todos os links
 
+    //percorre cada URL da lista
     for (let url of sites) {
+        //para cada site da lista exibe no terminal que esta visitando
         console.log(`\n🌐 Visitando: ${url}`)
 
+        //chama o crawler()
         const resultado = await crawler(url)
 
+        //caso o site nao rernar algo, ele pula para o proximo ou encerra
         if (!resultado || !resultado.links) {
             console.log(chalk.yellow(`⚠️ Nenhum dado retornado de ${url}. Pulando.`))
             continue
         }
 
-        // Adiciona os links ao array principal
+        // Adiciona os daos no array principal
         todos_os_links.push(...resultado.links)
 
         //cria o nome do arquivo e salva dentro da pasta logs
@@ -209,8 +239,9 @@ async function iniciarCrawler() {
         await delay(2000)
     }
 
+    //remove linksUnicos
     const linksUnicos = []
-    const setDeLinks = new Set()
+    const setDeLinks = new Set()//cria um set para garantir que cada link seja unico
 
     for (let link of todos_os_links) {
         const chave = `${link.site}|${link.href}` //identificador unico
