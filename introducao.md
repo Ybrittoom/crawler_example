@@ -3,6 +3,7 @@ O QUE EU TENHO QUE RESOLVER‼️⚠️ {
     a opçao de selecionar o site e mostrar so as imagens
     escrever e explicar o codigo do server.js e script.js
     fazer a estilizaçao das imagens
+    corrigir a aparencia(nao mostra a imagem) no html
 }
 dependencias {
     axios,
