@@ -115,14 +115,22 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 function preencherSeletorDeSites() {
-    const seletor = document.getElementById('seletorDeSites')
+    const seletorLinks = document.getElementById('seletorDeSites')
+    const seletorImagens = document.getElementById('seletorDeImagens')
+
     const sitesUnicos = [...new Set(todosOsDados.map(item => item.site))]
 
+    seletorLinks.innerHTML = '<option value="">Escolha um site</option>'
+    seletorImagens.innerHTML = '<option value="">Escolha um site</option>'
+
     sitesUnicos.forEach(site => {
-        const option = document.createElement('option')
-        option.value = site
-        option.innerText = site
-        seletor.appendChild(option)
+        const option1 = document.createElement('option')
+        option1.value = site
+        option1.innerText = site
+        seletorLinks.appendChild(option1)
+
+        const option2 = option1.cloneNode(true)
+        seletorImagens.appendChild(option2)
     })
 }
 
@@ -143,5 +151,58 @@ function mostrarLinksPorSite() {
         a.innerText = link.texto || link.href
         li.appendChild(a)
         lista.appendChild(li) 
+    })
+}
+function mostrarImagensPorSite() {
+    const siteSelecionado = document.getElementById('seletorDeImagens').value
+    const lista = document.getElementById('ImagensColetadas')
+    lista.innerHTML = ''
+
+    if (!siteSelecionado) return
+
+    const imagens = todosOsDados.filter(item => item.site === siteSelecionado && item.tipo === 'img')
+
+    imagens.forEach(img => {
+        const li = document.createElement('li')
+        const imagem = document.createElement('img')
+        imagem.src = img.href
+        imagem.alt = img.texto || 'Imagem'
+        imagem.style.maxWidth = '200px'
+        imagem.style.marginBottom = '10px'
+        li.appendChild(imagem)
+        lista.appendChild(li)
+    })
+}   
+
+
+function excluirSite() {
+    const siteSelecionado = document.getElementById('seletorDeSites').value
+
+    if(!siteSelecionado) {
+        alert('Selecione um site para excluir')
+        return
+    }
+
+    if(!confirm(`Tem certeza que deseja excluir os site "${siteSelecionado}"?`)) return
+
+    fetch('/excluir-site', {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ site: siteSelecionado })
+    })
+    .then(res => res.json())
+    .then(data => {
+        alert(data.messagem || 'Site excluido com sucesso')
+
+        //atualiza os dados exibidos
+        todosOsDados = todosOsDados.filter(item => item.site !== siteSelecionado)
+        preencherSeletorDeSites()
+        fecharDados()
+    })
+    .catch(err => {
+        console.error(err)
+        alert('Erro ao excluir site')
     })
 }

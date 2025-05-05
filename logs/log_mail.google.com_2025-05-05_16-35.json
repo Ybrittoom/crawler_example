@@ -1,0 +1,38 @@
+{
+  "titulo": "Gmail",
+  "site": "https://mail.google.com/mail/u/0/#inbox",
+  "totalLinks": 6,
+  "links": [
+    {
+      "site": "https://mail.google.com/mail/u/0/#inbox",
+      "texto": "Forgot email?",
+      "href": "/signin/usernamerecovery?continue=https://mail.google.com/mail/u/0/&dsh=S-1021624882:1746473743443401&emr=1&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://mail.google.com/mail/u/0/&ifkv=ASKV5MjxIT8dV0lRCBekvn7BuGCEe0_GF0ciwYEF1SNK3kuRitrW6ZIR9V1B7dshsoNrsuuprpDNNg&osid=1&service=mail"
+    },
+    {
+      "site": "https://mail.google.com/mail/u/0/#inbox",
+      "texto": "Learn more about using Guest mode",
+      "href": "https://support.google.com/accounts?p=signin_privatebrowsing&hl=en-US"
+    },
+    {
+      "site": "https://mail.google.com/mail/u/0/#inbox",
+      "texto": "Create account",
+      "href": "/lifecycle/flows/signup?continue=https://mail.google.com/mail/u/0/&dsh=S-1021624882:1746473743443401&emr=1&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https://mail.google.com/mail/u/0/&ifkv=ASKV5MjxIT8dV0lRCBekvn7BuGCEe0_GF0ciwYEF1SNK3kuRitrW6ZIR9V1B7dshsoNrsuuprpDNNg&osid=1&service=mail"
+    },
+    {
+      "site": "https://mail.google.com/mail/u/0/#inbox",
+      "texto": "Help",
+      "href": "https://support.google.com/accounts?hl=en-US&p=account_iph"
+    },
+    {
+      "site": "https://mail.google.com/mail/u/0/#inbox",
+      "texto": "Privacy",
+      "href": "https://accounts.google.com/TOS?loc=BR&hl=en-US&privacy=true"
+    },
+    {
+      "site": "https://mail.google.com/mail/u/0/#inbox",
+      "texto": "Terms",
+      "href": "https://accounts.google.com/TOS?loc=BR&hl=en-US"
+    }
+  ],
+  "dataHoraLog": "05/05/2025 16:35"
+}

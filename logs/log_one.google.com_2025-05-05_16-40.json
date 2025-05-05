@@ -1,0 +1,38 @@
+{
+  "titulo": "Sign in - Google Accounts",
+  "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+  "totalLinks": 6,
+  "links": [
+    {
+      "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+      "texto": "Forgot email?",
+      "href": "/signin/usernamerecovery?continue=https://one.google.com/storage/management/photos/large?g1_landing_page%3D6%26utm_source%3Dg1%26utm_medium%3Demail%26utm_campaign%3Dstorage_70_email_adler%26utm_id%3D20268236&dsh=S1881243799:1746474002940280&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://one.google.com/storage/management/photos/large?g1_landing_page%3D6%26utm_source%3Dg1%26utm_medium%3Demail%26utm_campaign%3Dstorage_70_email_adler%26utm_id%3D20268236&ifkv=ASKV5Mgofp1s2RvT5fMbraRBCpfhqRgcTDqDimILUeObq2Q1TUHKbTlYHw74jgRFSBf1H72-1BkB5w"
+    },
+    {
+      "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+      "texto": "Learn more about using Guest mode",
+      "href": "https://support.google.com/accounts?p=signin_privatebrowsing&hl=en-US"
+    },
+    {
+      "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+      "texto": "Create account",
+      "href": "/lifecycle/flows/signup?continue=https://one.google.com/storage/management/photos/large?g1_landing_page%3D6%26utm_source%3Dg1%26utm_medium%3Demail%26utm_campaign%3Dstorage_70_email_adler%26utm_id%3D20268236&dsh=S1881243799:1746474002940280&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https://one.google.com/storage/management/photos/large?g1_landing_page%3D6%26utm_source%3Dg1%26utm_medium%3Demail%26utm_campaign%3Dstorage_70_email_adler%26utm_id%3D20268236&ifkv=ASKV5Mgofp1s2RvT5fMbraRBCpfhqRgcTDqDimILUeObq2Q1TUHKbTlYHw74jgRFSBf1H72-1BkB5w"
+    },
+    {
+      "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+      "texto": "Help",
+      "href": "https://support.google.com/accounts?hl=en-US&p=account_iph"
+    },
+    {
+      "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+      "texto": "Privacy",
+      "href": "https://accounts.google.com/TOS?loc=BR&hl=en-US&privacy=true"
+    },
+    {
+      "site": "https://one.google.com/storage/management/photos/large?g1_landing_page=6&utm_source=g1&utm_medium=email&utm_campaign=storage_70_email_adler&utm_id=20268236",
+      "texto": "Terms",
+      "href": "https://accounts.google.com/TOS?loc=BR&hl=en-US"
+    }
+  ],
+  "dataHoraLog": "05/05/2025 16:40"
+}

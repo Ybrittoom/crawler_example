@@ -88,15 +88,21 @@ app.post('/adicionar-site', async (req, res) => {
 })
 
 function getDataHoraAtual() {
-    const agora = new Date()
-    const ano = agora.getFullYear()
-    const mes = String(agora.getMonth() + 1).padStart(2, '0')
+    const agora = new Date() //cria um objeto date com data e horas atuais
+    const ano = agora.getFullYear() //pega os componentes de data/hora
+    const mes = String(agora.getMonth() + 1).padStart(2, '0')//getMonth() retorna de 0 a 11, por isso soma 1. padStart(2, '0') garante que fique com dois dígitos (ex: 05 em vez de 5).
+    //seguem o mesmo padrao: garantir que tudo tenham dois digitos
     const dia = String(agora.getDate()).padStart(2, '0')
     const horas = String(agora.getHours()).padStart(2, '0')
     const minutos = String(agora.getMinutes()).padStart(2, '0')
 
+
     return {
+        //Fica algo como 2025-05-02_14-37
+        //Esse formato é seguro para nome de arquivos, sem caracteres proibidos como : ou /.
         formatoArquivo: `${ano}-${mes}-${dia}_${horas}-${minutos}`,
+        //Fica como 02/05/2025 14:37
+        //Bom para logs e exibição na tela.
         formatoHumano: `${dia}/${mes}/${ano} ${horas}:${minutos}`
     }
 }
@@ -251,17 +257,19 @@ async function iniciarCrawler() {
         }
     }
 
-    // Salva todos os dados encontrados juntos
+    // Salva todos os links juntos
     fs.writeFileSync('dados.json', JSON.stringify(linksUnicos, null, 2), 'utf-8')
     console.log(chalk.green('\n✅ Todos os dados foram salvos em dados.json'))
 }
 
 
 async function baixarImagem(urlImagem, nomeArquivo) {
+    //define o caminho completo da imagem no disco
     const caminhoCompleto = path.join(pastaImagens, nomeArquivo)
 
     try {
-        const response = await axios({
+        //faz a requisiçao http da imagem
+        const response = await axios({//usa o axios com reponseType: 'stream para baixar a imagem como um fluxo(stream)
             method: 'GET',
             url: urlImagem,
             responseType: 'stream',
@@ -270,22 +278,41 @@ async function baixarImagem(urlImagem, nomeArquivo) {
             }
         })
 
-        await new Promise((resolve, reject) => {
-            const writer = fs.createWriteStream(caminhoCompleto)
-            response.data.pipe(writer)
-            writer.on('finish', resolve)
-            writer.on('error', reject)
+        //salva a imagem no disco usando stream
+        await new Promise((resolve, reject) => {//A Promise é usada para esperar a conclusão da escrita no arquivo:
+            const writer = fs.createWriteStream(caminhoCompleto) //cria um write para escrever a imagem no dicos
+            response.data.pipe(writer)// liga a resposta da requisição direto na gravação do arquivo.
+            writer.on('finish', resolve)//finish resolve a promessa (concluído com sucesso)
+            writer.on('error', reject)//error rejeita a promessa (ocorreu erro ao salvar)
         })
-
+        //Retorna o caminho relativo para uso futuro
         return `/imagens/${nomeArquivo}`
-    } catch (error) {
-        console.error(chalk.red(`Erro ao baixar a imagem ${urlImagem}: ${error.message}`))
+    } catch (error) { //tratamento de erro
+        console.error(chalk.red(`Erro ao baixar a imagem ${urlImagem}: ${error.message}`))//usa chalk para destacar o erro e melhor visibilidade 
         if (error.response) {
             console.error(`Status: ${error.response.status}`)
             console.error(`Resposta: ${error.response.data}`)
         }
     }
 }
+
+app.delete('/excluir-site', (req, res) => {
+    const { site } = req.body
+
+    if (!site) {
+        return res.status(400).json({ mensagem: 'Site nao informado' })
+    }
+
+    try {
+        let dados = []
+        if (fs.existsSync('dados.json')) {
+            dados = JSON.parse(fs.readFileSync('dados.json', 'utf-8'))
+        }
+
+        //filtrar os dados, removendo os que pertencem ao site
+        const novosDados = dados.filter(item => item.site !== site)
+    }
+})
 
 
 app.listen(port, () => {
