@@ -14,7 +14,7 @@ function enviarUrl() {
     const url = input.value.trim()
 
     if (!url) {
-        alert("Por favor, isira uma url valida")
+        alert("Por favor, insira uma url valida")
         return
     }
 
@@ -175,34 +175,61 @@ function mostrarImagensPorSite() {
 }   
 
 
-function excluirSite() {
-    const siteSelecionado = document.getElementById('seletorDeSites').value
 
-    if(!siteSelecionado) {
-        alert('Selecione um site para excluir')
-        return
-    }
+//SETOR DO MODAL//
 
-    if(!confirm(`Tem certeza que deseja excluir os site "${siteSelecionado}"?`)) return
+document.getElementById('abrirModal').onclick = () => {
+    document.getElementById('modal').style.display = 'block'
+    carregarSites()
+}
 
-    fetch('/excluir-site', {
-        method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ site: siteSelecionado })
+document.getElementById('fecharModal').onclick = () => {
+    document.getElementById('modal').style.display = 'none'
+}
+
+document.getElementById("filtroSites").oninput = function () {
+    const filtro = this.value.toLowerCase()
+    const itens = document.querySelectorAll('#listaSites li')
+    itens.forEach(item => {
+        const texto = item.textContent.toLowerCase()
+        item.style.display = texto.includes(filtro) ? 'flex' : 'none'
     })
-    .then(res => res.json())
-    .then(data => {
-        alert(data.messagem || 'Site excluido com sucesso')
+}
 
-        //atualiza os dados exibidos
-        todosOsDados = todosOsDados.filter(item => item.site !== siteSelecionado)
-        preencherSeletorDeSites()
-        fecharDados()
+async function carregarSites() {
+    const res = await fetch('/dados.json')
+    const dados = await res.json()
+
+    const sitesUnicos = [...new Set(dados.map(d => d.site))]
+
+    const lista = document.getElementById('listaSites')
+    lista.innerHTML = '' //limpa antes de popular
+
+    sitesUnicos.forEach(site => {
+        const li = document.createElement('li')
+        li.innerHTML = `
+            <span>${site}</span>
+            <button onclick="excluirSite('${site}')">Excluir</button>
+        `;
+        lista.appendChild(li)
+    
     })
-    .catch(err => {
-        console.error(err)
+
+}
+
+async function excluirSite(site) {
+    if (!confirm(`tem certeza que deseja excluir todos os dados do site:\n${site} (OS DADOS FICARAO SALVOS EM LOG)?`)) return
+
+    const res = await fetch('/excluir-site', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ site })
+    })
+
+    if (res.ok) {
+        alert('Site excluido com sucesso!')
+        carregarSites()//atualiza a lista
+    } else {
         alert('Erro ao excluir site')
-    })
+    }
 }

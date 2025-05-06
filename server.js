@@ -296,24 +296,20 @@ async function baixarImagem(urlImagem, nomeArquivo) {
     }
 }
 
-app.delete('/excluir-site', (req, res) => {
-    const { site } = req.body
+app.post('/excluir-site', (req, res) => {
+    const { site } = req.body;
 
-    if (!site) {
-        return res.status(400).json({ mensagem: 'Site nao informado' })
-    }
+    if (!site) return res.status(400).json({ erro: 'Site não informado' });
+  
+    const caminho = path.join(__dirname, 'dados.json');
+    if (!fs.existsSync(caminho)) return res.status(404).json({ erro: 'Arquivo não encontrado' });
 
-    try {
-        let dados = []
-        if (fs.existsSync('dados.json')) {
-            dados = JSON.parse(fs.readFileSync('dados.json', 'utf-8'))
-        }
+    const dados = JSON.parse(fs.readFileSync(caminho, 'utf-8'))
+    const novosDados = dados.filter(d => d.site !== site)
 
-        //filtrar os dados, removendo os que pertencem ao site
-        const novosDados = dados.filter(item => item.site !== site)
-    }
+    fs.writeFileSync(caminho, JSON.stringify(novosDados, null, 2), 'utf-8')
+    res.json({ mensagem: 'Site excluido com sucesso' })
 })
-
 
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`)

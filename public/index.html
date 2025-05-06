@@ -20,7 +20,7 @@
         <input type="url" id="novaUrl" placeholder="Digite a URL..." required />
         <div class="buttons">
           <button type="button" onclick="enviarUrl()">Adicionar</button>
-          <button onclick="excluirSite()">Excluir site selecionado</button>
+          <button type="button" id="abrirModal">Excluir site</button>
           <button type="button" onclick="mostrarDados()">📂 Ver Dados</button>
           <button type="button" onclick="fecharDados()">❌ Fechar</button>
         </div>
@@ -35,7 +35,7 @@
     <section class="links-section">
       <p>Seletor de Links</p>
       <select id="seletorDeSites" class="seletorDeSites" onchange="mostrarLinksPorSite()">
-        <option value="">Ecolha um site</option>
+        <option value="">Escolha um site</option>
       </select>
       <ul id="linksColetados"></ul>
 
@@ -44,7 +44,7 @@
     <section class="imgs-section">
       <p>Seletor de Imagens</p>
       <select id="seletorDeImagens" class="seletorDeImagens" onchange="mostrarImagensPorSite()">
-        <option value="">Ecolha um site</option>
+        <option value="">Escolha um site</option>
       </select>
       <ul id="ImagensColetadas"></ul>
     </section>
@@ -54,6 +54,16 @@
   <footer>
     <p>&copy; 2025 - Projeto Crawler</p>
   </footer>
+
+  <!--Modal-->
+  <div class="modal" id="modal" style="display: none;">
+    <div class="modal_content">
+      <span class="close" id="fecharModal">&times;</span>
+      <h2>Excluir site</h2>
+      <input type="text" id="filtroSites" placeholder="Pesquisar site...">
+      <ul id="listaSites"></ul>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
