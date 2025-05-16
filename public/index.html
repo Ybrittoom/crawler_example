@@ -2,70 +2,69 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crawler de Sites</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crawler de Sites</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
-    <h1>Crawler de Sites</h1>
-  </header>
+    <header>
+        <h1>Crawler de Sites</h1>
+    </header>
 
-  <main>
-    <section class="form-section">
-      <h2>Adicionar Novo Site</h2>
-      <form id="siteForm">
-        <input type="url" id="novaUrl" placeholder="Digite a URL..." required />
-        <div class="buttons">
-          <button type="button" onclick="enviarUrl()">Adicionar</button>
-          <button type="button" id="abrirModal">Excluir site</button>
-          <button type="button" onclick="mostrarDados()">📂 Ver Dados</button>
-          <button type="button" onclick="fecharDados()">❌ Fechar</button>
+    <main>
+        <div class="grid-container">
+            <section class="form-card">
+                <h2>Adicionar Novo Site</h2>
+                <form id="siteForm">
+                    <input type="url" id="novaUrl" placeholder="Digite a URL..." required />
+                    <div class="buttons">
+                        <button type="button" onclick="enviarUrl()">Adicionar</button>
+                        <button type="button" id="abrirModal">Excluir site</button>
+                        <button type="button" onclick="mostrarDados()">📂 Ver Dados</button>
+                        <button type="button" onclick="fecharDados()">❌ Fechar</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="data-card">
+                <h2>Sites Visitados:</h2>
+                <div id="conteudo"></div>
+            </section>
+
+            <section class="links-card">
+                <p>Seletor de Links</p>
+                <select id="seletorDeSites" class="seletorDeSites" onchange="mostrarLinksPorSite()">
+                    <option value="">Escolha um site</option>
+                </select>
+                <ul id="linksColetados"></ul>
+            </section>
+
+            <section class="images-card">
+                <p>Seletor de Imagens</p>
+                <select id="seletorDeImagens" class="seletorDeImagens" onchange="mostrarImagensPorSite()">
+                    <option value="">Escolha um site</option>
+                </select>
+                <ul id="ImagensColetadas"></ul>
+            </section>
         </div>
-      </form>
-    </section>
+    </main>
 
-    <section class="dados-section">
-      <h2>Sites Visitados:</h2>
-      <div id="conteudo"></div> 
-    </section>
+    <footer>
+        <p>&copy; 2025 - Projeto Crawler</p>
+    </footer>
 
-    <section class="links-section">
-      <p>Seletor de Links</p>
-      <select id="seletorDeSites" class="seletorDeSites" onchange="mostrarLinksPorSite()">
-        <option value="">Escolha um site</option>
-      </select>
-      <ul id="linksColetados"></ul>
-
-    </section>
-
-    <section class="imgs-section">
-      <p>Seletor de Imagens</p>
-      <select id="seletorDeImagens" class="seletorDeImagens" onchange="mostrarImagensPorSite()">
-        <option value="">Escolha um site</option>
-      </select>
-      <ul id="ImagensColetadas"></ul>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>&copy; 2025 - Projeto Crawler</p>
-  </footer>
-
-  <!--Modal-->
-  <div class="modal" id="modal" style="display: none;">
-    <div class="modal_content">
-      <span class="close" id="fecharModal">&times;</span>
-      <h2>Excluir site</h2>
-      <input type="text" id="filtroSites" placeholder="Pesquisar site...">
-      <ul id="listaSites"></ul>
+    <div class="modal" id="modal" style="display: none;">
+        <div class="modal_content">
+            <span class="close" id="fecharModal">&times;</span>
+            <h2>Excluir site</h2>
+            <input type="text" id="filtroSites" placeholder="Pesquisar site...">
+            <ul id="listaSites"></ul>
+        </div>
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

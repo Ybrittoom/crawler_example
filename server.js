@@ -123,7 +123,7 @@ async function crawler(url) {
       Extrai e baixa todas as imagens <img>
       Junta tudo e retorna um objeto com os dados*/
 
-      //tenta acessar a pagina
+    //tenta acessar a pagina
     try {
         const response = await axios.get(url)//faz uma requisiçao GET para obter o conteudo HTML
         const html = response.data
@@ -133,7 +133,7 @@ async function crawler(url) {
         const title = $('title').text().trim()//extrai o conteudo <title> e remove os espços extras
 
         //extrai todos os links
-        const links = [] 
+        const links = []
         $('a').each((index, element) => {
             const texto = $(element).text()
             const href = $(element).attr('href')
@@ -152,47 +152,47 @@ async function crawler(url) {
         })
 
         //extrai e baixa todas as imagens
-       const imagem = $('img').map(async (_, el) => {
-        let src = $(el).attr('src') //percorre todas as tags <img> e pega o src
-        if (!src) return null //se src estiver vazio, ignora
+        const imagem = $('img').map(async (_, el) => {
+            let src = $(el).attr('src') //percorre todas as tags <img> e pega o src
+            if (!src) return null //se src estiver vazio, ignora
 
-        //resolve o caminho da imagem
-        const dominio = new URL(url).origin
-        if (src.startsWith('/')) src = dominio + src // se começar com '/', junta com a origem
-        else if (!src.startsWith('http')) src = `${dominio}/${src}` //se for relativo sem http, tambem ajusta
+            //resolve o caminho da imagem
+            const dominio = new URL(url).origin
+            if (src.startsWith('/')) src = dominio + src // se começar com '/', junta com a origem
+            else if (!src.startsWith('http')) src = `${dominio}/${src}` //se for relativo sem http, tambem ajusta
 
-        //define o nome e extensao da imagem
-        const extensao = path.extname(new URL(src).pathname).split('?')[0] || '.jpg' //decobre a extensao da imagem(ex. .jpg,png)
-        const nomeArquivo = `${Date.now()}-${Math.floor(Math.random() * 10000)}${extensao}` //cria um nome de arquivo unico com timestamp + numero aleatorio
-        
-        //baixa a imagem e salva
-        const caminhoLocal = await baixarImagem(src, nomeArquivo)//usa a funçao baixarImagem() para fazer o download e salvar
-        if (caminhoLocal) { //retorna um objeto com dados da imagem baixada caso de certo
-            return { 
-                site: url,
-                tipo: 'img',
-                href: caminhoLocal, 
-                text: ''
+            //define o nome e extensao da imagem
+            const extensao = path.extname(new URL(src).pathname).split('?')[0] || '.jpg' //decobre a extensao da imagem(ex. .jpg,png)
+            const nomeArquivo = `${Date.now()}-${Math.floor(Math.random() * 10000)}${extensao}` //cria um nome de arquivo unico com timestamp + numero aleatorio
+
+            //baixa a imagem e salva
+            const caminhoLocal = await baixarImagem(src, nomeArquivo)//usa a funçao baixarImagem() para fazer o download e salvar
+            if (caminhoLocal) { //retorna um objeto com dados da imagem baixada caso de certo
+                return {
+                    site: url,
+                    tipo: 'img',
+                    href: caminhoLocal,
+                    text: ''
+                }
             }
-        }
-        return null
-       }).get()
+            return null
+        }).get()
 
-       //aguarda todas as imagens baixarem
-       const imagensBaixadas = (await Promise.all(imagem)).filter(Boolean)
+        //aguarda todas as imagens baixarem
+        const imagensBaixadas = (await Promise.all(imagem)).filter(Boolean)
 
-       //combina links e imagens
-       const todos = [...links, ...imagensBaixadas]
+        //combina links e imagens
+        const todos = [...links, ...imagensBaixadas]
 
-       //atualiza o arquivo dados.json
-       const caminhoJSON = path.join(__dirname, 'dados.json') //le o arquivo atual
-       let dadosExistentes = []
-       if (fs.existsSync(caminhoJSON)) {
-        const raw = fs.readFileSync(caminhoJSON, 'utf8')
+        //atualiza o arquivo dados.json
+        const caminhoJSON = path.join(__dirname, 'dados.json') //le o arquivo atual
+        let dadosExistentes = []
+        if (fs.existsSync(caminhoJSON)) {
+            const raw = fs.readFileSync(caminhoJSON, 'utf8')
             dadosExistentes = JSON.parse(raw)
-       }
-       dadosExistentes.push(...todos)
-       fs.writeFileSync(caminhoJSON, JSON.stringify(dadosExistentes, null, 2))
+        }
+        dadosExistentes.push(...todos)
+        fs.writeFileSync(caminhoJSON, JSON.stringify(dadosExistentes, null, 2))
 
         //retorna os resultados
         const resultado = {
@@ -201,7 +201,7 @@ async function crawler(url) {
             totalLinks: todos.length,
             links: todos
         }
-        
+
         console.log(`✅ ${links.length} links encontrados em ${url}`)
         return resultado
     } catch (error) { //tratamento de erro
@@ -300,7 +300,7 @@ app.post('/excluir-site', (req, res) => {
     const { site } = req.body;
 
     if (!site) return res.status(400).json({ erro: 'Site não informado' });
-  
+
     const caminho = path.join(__dirname, 'dados.json');
     if (!fs.existsSync(caminho)) return res.status(404).json({ erro: 'Arquivo não encontrado' });
 
@@ -309,6 +309,57 @@ app.post('/excluir-site', (req, res) => {
 
     fs.writeFileSync(caminho, JSON.stringify(novosDados, null, 2), 'utf-8')
     res.json({ mensagem: 'Site excluido com sucesso' })
+})
+
+app.delete('/remover-site', (req, res) => {
+    const { url } = req.body
+    if (!url) {
+        return res.status(400).json({ mensagem: 'URL invalida' })
+    }
+
+    const hostname = new URL(url).hostname
+
+    // 1 remover do dados.json
+    const caminhoJSON = path.join(__dirname, 'dados.json')
+    let dados = []
+
+    if (fs.existsSync(caminhoJSON)) {
+        dados = JSON.parse(fs.readFileSync(caminhoJSON, 'utf-8'))
+    }
+
+    //filtra todos os dados que NAO pertencem ao site a ser removido
+    const dadosFiltrados = dados.filter(link => link.site !== hostname)
+    //salva novamente o dados.json sem os dados do site
+    fs.writeFileSync(caminhoJSON, JSON.stringify(dadosFiltrados, null, 2), 'utf-8')
+    console.log(chalk.yellow(`🗑️ Links do site ${url} removidos de dados.json.`));
+
+
+
+    // 2. Remover logs relacionados ao site
+    const arquivosLogs = fs.readdirSync(pastaLogs);
+    arquivosLogs.forEach(arquivo => {
+        if (arquivo.includes(hostname)) {
+            const caminhoLog = path.join(pastaLogs, arquivo);
+            fs.unlinkSync(caminhoLog);
+            console.log(chalk.yellow(`🗑️ Log ${arquivo} removido.`));
+        }
+    });
+
+    // 3. Remover imagens relacionadas ao site
+    const imagens = fs.readdirSync(pastaImagens);
+    dados.forEach(link => {
+        if (link.site === url && link.href.includes('/imagens/')) {
+            const nomeImagem = path.basename(link.href);
+            const caminhoImagem = path.join(pastaImagens, nomeImagem);
+
+            if (fs.existsSync(caminhoImagem)) {
+                fs.unlinkSync(caminhoImagem);
+                console.log(chalk.yellow(`🗑️ Imagem ${nomeImagem} removida.`));
+            }
+        }
+    });
+      res.json({ mensagem: `Site ${url} removido com sucesso.` });
+
 })
 
 app.listen(port, () => {
